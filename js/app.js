@@ -245,9 +245,24 @@ function renderAsciiText(text) {
 // THEME MANAGEMENT
 // ============================================
 
+function getSystemTheme() {
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+
+function updateThemeIcon(theme) {
+  const icon = document.querySelector('.theme-icon');
+  if (icon) {
+    // Sun for dark mode (click to go light), moon for light mode (click to go dark)
+    icon.innerHTML = theme === 'dark' ? '&#9788;' : '&#9790;';
+  }
+}
+
 function initTheme() {
-  const savedTheme = localStorage.getItem('theme') || 'dark';
-  document.documentElement.setAttribute('data-theme', savedTheme);
+  // Respect prefers-color-scheme, then saved preference, default to light
+  const savedTheme = localStorage.getItem('theme');
+  const theme = savedTheme || getSystemTheme();
+  document.documentElement.setAttribute('data-theme', theme);
+  updateThemeIcon(theme);
 
   const themeToggle = document.getElementById('themeToggle');
   themeToggle.addEventListener('click', () => {
@@ -255,6 +270,16 @@ function initTheme() {
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
+    updateThemeIcon(newTheme);
+  });
+
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+      const newTheme = e.matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      updateThemeIcon(newTheme);
+    }
   });
 }
 
@@ -350,7 +375,7 @@ function populateUserInfo() {
 
   if (config.socials?.github) {
     socialLinks.push({
-      icon: '→',
+      icon: '&#8599;',
       label: 'GitHub',
       url: `https://github.com/${config.socials.github}`
     });
@@ -358,7 +383,7 @@ function populateUserInfo() {
 
   if (config.socials?.twitter) {
     socialLinks.push({
-      icon: '→',
+      icon: '&#8599;',
       label: 'Twitter',
       url: `https://twitter.com/${config.socials.twitter}`
     });
@@ -366,7 +391,7 @@ function populateUserInfo() {
 
   if (config.socials?.linkedin) {
     socialLinks.push({
-      icon: '→',
+      icon: '&#8599;',
       label: 'LinkedIn',
       url: config.socials.linkedin
     });
@@ -374,7 +399,7 @@ function populateUserInfo() {
 
   if (config.socials?.website) {
     socialLinks.push({
-      icon: '→',
+      icon: '&#8599;',
       label: 'Website',
       url: config.socials.website
     });
@@ -383,8 +408,8 @@ function populateUserInfo() {
   if (socialLinks.length > 0) {
     socialSection.style.display = 'block';
     socialLinksContainer.innerHTML = socialLinks.map(link => `
-      <a href="${link.url}" target="_blank" class="social-link">
-        <span class="social-icon">${link.icon}</span>
+      <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="${link.label} (opens in new tab)">
+        <span class="social-icon" aria-hidden="true">${link.icon}</span>
         ${link.label}
       </a>
     `).join('');
@@ -590,7 +615,7 @@ function populateHeatmap(days) {
 
     const cell = document.createElement('div');
     cell.className = 'heatmap-cell';
-    cell.style.background = `color-mix(in srgb, var(--accent) ${percentage}%, var(--bg-secondary))`;
+    cell.style.background = `color-mix(in srgb, var(--color-brand-primary) ${percentage}%, var(--color-bg-secondary))`;
 
     // Add empty class for cells before first day
     if (isBeforeFirstDay) {
