@@ -1,10 +1,10 @@
-# Claude Code Usage Analytics Dashboard
+# ccstats
 
-A self-hosted, single-user analytics dashboard for tracking your Claude Code usage statistics. Deploy for free on GitHub Pages with zero configuration.
+A self-hosted analytics dashboard for tracking your Claude Code usage statistics across multiple machines. Deploy for free on GitHub Pages with zero configuration.
 
 ![Dashboard Preview](images/example-site.png)
 
-**[View Live Demo →](https://joshuabell.github.io/claude-code-stats-dashboard/)**
+**[View Live Demo →](https://joshuabell.github.io/ccstats/)**
 
 ![Dashboard Preview](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
@@ -12,6 +12,7 @@ A self-hosted, single-user analytics dashboard for tracking your Claude Code usa
 
 ## Features
 
+- **Multi-Device Support**: Aggregate usage from all your machines into one dashboard
 - **Comprehensive Stats**: Lifetime, daily, weekly, and monthly usage metrics
 - **Streak Tracking**: Monitor your current and longest usage streaks
 - **Activity Heatmap**: GitHub-style contribution graph of your usage
@@ -22,18 +23,26 @@ A self-hosted, single-user analytics dashboard for tracking your Claude Code usa
 - **Git-Based Storage**: All stats stored as JSON files in your repo
 - **Deploy Anywhere**: GitHub Pages, Cloudflare Pages, Netlify, or any static host
 
-## Quick Start (3 steps, < 5 minutes)
+## Quick Start (4 steps, < 5 minutes)
 
 ### 1. Fork & Clone
 
 ```bash
 # Fork this repo on GitHub, then:
-git clone https://github.com/YOUR_USERNAME/claude-code-stats-dashboard.git
-cd claude-code-stats-dashboard
+git clone https://github.com/YOUR_USERNAME/ccstats.git
+cd ccstats
 npm install
 ```
 
-### 2. Configure Your Profile
+### 2. Register This Machine
+
+```bash
+npm run setup
+```
+
+This generates a unique machine ID and saves it to `.env`. Each machine that contributes data needs to run this once.
+
+### 3. Configure Your Profile
 
 Edit `config.js` with your info:
 
@@ -49,19 +58,14 @@ window.CONFIG = {
 };
 ```
 
-### 3. Generate and Push Your Data
+### 4. Generate and Push Your Data
 
 ```bash
-# Generate your usage stats
-npm run stats
-
-# Push to GitHub (triggers auto-deployment)
-git add .
-git commit -m "Add my usage stats"
-git push
+npm run stats      # Collect usage data from this machine
+npm run push       # Commit and push to GitHub
 ```
 
-**That's it!** Your dashboard will be live at `https://YOUR_USERNAME.github.io/claude-code-stats-dashboard` in ~1 minute.
+**That's it!** Your dashboard will be live at `https://YOUR_USERNAME.github.io/ccstats` in ~1 minute.
 
 ## Detailed Setup
 
@@ -103,20 +107,20 @@ GitHub provides **free SSL certificates** automatically!
 ### Manual Update
 
 ```bash
-npm run stats      # Generates stats from ccusage
-npm run push       # Commits and pushes to GitHub
+npm run stats      # Pull latest, collect this machine's data, aggregate all machines
+npm run push       # Commit and push to GitHub
 ```
 
 ### Automatic Daily Updates (Recommended)
 
-Set up a cron job:
+Set up a cron job on each machine:
 
 ```bash
 # Add to your crontab (crontab -e)
-0 23 * * * cd /path/to/claude-code-stats-dashboard && npm run stats && npm run push
+0 23 * * * cd /path/to/ccstats && npm run stats && npm run push
 ```
 
-This runs every day at 11 PM, updates your stats, and pushes to GitHub.
+This runs every day at 11 PM, updates your stats, and pushes to GitHub. Each machine can run on its own schedule — there's no coordination needed.
 
 ## Project Structure
 
@@ -124,16 +128,21 @@ This runs every day at 11 PM, updates your stats, and pushes to GitHub.
 .
 ├── index.html             # Main dashboard page
 ├── config.js              # YOUR CONFIGURATION (edit this!)
+├── setup.js               # Machine registration (generates .env)
+├── stats.js               # Data collection, aggregation, and stats
+├── .env.example           # Template for machine identity
+├── .env                   # YOUR machine identity (git-ignored, created by setup)
 ├── css/
 │   └── style.css          # Dashboard styles
 ├── js/
 │   └── app.js             # Dashboard logic (ASCII art, pagination, heatmap)
-├── data/                   # Generated stats (auto-created)
-│   ├── stats.json         # Computed statistics
-│   └── days.json          # Daily usage data
+├── data/
+│   ├── machines/          # Per-machine snapshots (one file per device)
+│   │   └── {uuid}.json    # This machine's complete daily history
+│   ├── stats.json         # Aggregated statistics (computed)
+│   └── days.json          # Aggregated daily data (computed)
 ├── images/
 │   └── example-site.png   # Screenshot for README
-├── stats.js               # Script to generate usage stats
 ├── .github/
 │   └── workflows/
 │       └── pages.yml      # GitHub Pages deployment
@@ -142,12 +151,14 @@ This runs every day at 11 PM, updates your stats, and pushes to GitHub.
 
 ## How It Works
 
-1. **Data Collection**: `npm run stats` runs `ccusage` to collect your Claude Code usage data
-2. **Processing**: The script processes the data and calculates statistics locally
-3. **Storage**: Results are saved as JSON files in `data/`
-4. **Commit**: You commit the updated files to your repo
-5. **Deploy**: Push to GitHub → GitHub Actions deploys to Pages
-6. **Display**: The dashboard loads and displays the data (no backend required!)
+1. **Setup**: `npm run setup` registers this machine with a unique ID stored in `.env`
+2. **Pull**: `npm run stats` starts by pulling the latest data from git
+3. **Collect**: Runs `ccusage` to get this machine's complete Claude Code usage history
+4. **Snapshot**: Writes the full history to `data/machines/{machine-id}.json` (idempotent overwrite)
+5. **Aggregate**: Reads all machine files and sums usage per day across devices
+6. **Compute**: Calculates statistics from the aggregated daily data
+7. **Push**: `npm run push` commits and pushes to GitHub → GitHub Actions deploys to Pages
+8. **Display**: The dashboard loads the aggregated data (no backend required!)
 
 ## Configuration
 
@@ -224,18 +235,52 @@ vercel
 
 All platforms support custom domains with free SSL.
 
-## Important Notes
+## Multi-Device Setup
 
-### Single Machine Usage
+This dashboard supports aggregating usage from **multiple machines** into a single view. Each machine contributes its own data without conflicts.
 
-This dashboard is designed for **single-developer, single-machine usage**. Claude Code tracks usage data locally on each machine.
+### Adding a New Machine
 
-**Multi-machine considerations:**
-- If you run `npm run stats` from multiple machines, the most recent data will overwrite previous data
-- For multiple machines, consider:
-  - Deploying separate dashboard instances per machine
-  - Using only one primary machine for uploads
-  - Manually merging data (advanced)
+On each machine that should contribute data:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ccstats.git
+cd ccstats
+npm install
+npm run setup       # Generates a unique machine ID
+npm run stats       # Collect and aggregate
+npm run push        # Push to GitHub
+```
+
+### How It Works
+
+Each machine gets a UUID stored in `.env` (never committed). When you run `npm run stats`:
+
+1. The script pulls the latest `data/machines/` files from git
+2. Runs `ccusage` to get this machine's **complete** usage history
+3. Overwrites `data/machines/{your-uuid}.json` with the full snapshot
+4. Reads **all** machine files and sums usage per day
+5. Writes the aggregated `data/days.json` and `data/stats.json`
+
+Because each machine overwrites its own snapshot file, you can run `npm run stats` as many times per day as you want — no data is lost or double-counted.
+
+### Why There Are No Merge Conflicts
+
+Each machine only writes to its own file under `data/machines/`. Two machines never modify the same file, so git merges are always clean.
+
+If a push fails because another machine pushed first, just re-run:
+
+```bash
+npm run stats && npm run push
+```
+
+The stats command pulls the other machine's data before aggregating.
+
+### Important: Don't Re-run Setup
+
+Running `npm run setup` on an already-registered machine generates a new UUID, which would create a second machine file and cause double-counting. The setup script guards against this — it will refuse to overwrite an existing `.env`.
+
+If you genuinely need to re-register a machine (e.g., after deleting `.env`), also remove the old machine file from `data/machines/`.
 
 ### Data Privacy
 
@@ -262,11 +307,12 @@ Visit `http://localhost:3000`
 ## npm Scripts
 
 ```bash
-npm run stats    # Run ccusage, process data, save to data/
+npm run setup    # Register this machine (generates .env with UUID, run once)
+npm run stats    # Pull latest, collect usage, aggregate all machines, save to data/
 npm run push     # Commit and push changes to GitHub
 ```
 
-Combine them:
+Combine the daily workflow:
 ```bash
 npm run stats && npm run push
 ```
@@ -293,11 +339,30 @@ npm run stats && npm run push
 3. Wait for DNS propagation (up to 24 hours, usually < 1 hour)
 4. GitHub Pages → Settings → check for errors
 
-### Upload script fails
+### "No .env file found" error
+
+Run `npm run setup` to register this machine. Every machine needs its own `.env`.
+
+### Stats script fails
 
 1. Make sure `ccusage` is installed: `npm install`
 2. Check that you have Claude Code usage data: `npx ccusage --json`
 3. Ensure Node.js >= 18
+
+### Push fails after another machine pushed
+
+This is normal. Re-run both commands:
+```bash
+npm run stats && npm run push
+```
+The stats command pulls the other machine's data first, then re-aggregates.
+
+### Seeing double-counted data
+
+This happens if `npm run setup` was run twice on the same machine, creating two machine files. Fix it by:
+1. Check `data/machines/` for duplicate files from the same device
+2. Delete the old/orphaned one
+3. Re-run `npm run stats && npm run push`
 
 ## Contributing
 
@@ -324,4 +389,4 @@ If you found this useful, give it a star on GitHub!
 
 **Made with Claude Code**
 
-Need help? [Open an issue](https://github.com/yourusername/claude-code-stats-dashboard/issues)
+Need help? [Open an issue](https://github.com/yourusername/ccstats/issues)
