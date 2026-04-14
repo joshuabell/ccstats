@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claude Code Usage Stats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,92 +14,69 @@
         <!-- Header with ASCII Art Name -->
         <header>
             <div class="header-brand">
-                <pre class="ascii-logo" id="asciiLogo"></pre>
-                <p class="header-subtitle">CLAUDE CODE USAGE ANALYTICS</p>
+                <pre class="ascii-logo" id="asciiLogo" aria-hidden="true"></pre>
+                <p class="header-subtitle">Claude Code Usage Analytics</p>
             </div>
-            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-                <span class="theme-icon">◐</span>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+                <span class="theme-icon" aria-hidden="true">&#9788;</span>
             </button>
         </header>
 
         <!-- Stats Grid -->
-        <section class="stats-section">
+        <section class="stats-section" aria-labelledby="stats-heading">
             <div class="section-header">
-                <h2>
-                    <span class="bracket">[</span> STATISTICS <span class="bracket">]</span>
-                </h2>
-                <div class="last-updated" id="lastUpdated">Last updated: Loading...</div>
+                <div>
+                    <p class="section-label">Overview</p>
+                    <h2 id="stats-heading">Statistics</h2>
+                </div>
+                <div class="last-updated" id="lastUpdated" aria-live="polite">Last updated: Loading...</div>
             </div>
 
             <div class="stats-grid">
-                <!-- Lifetime Stats -->
                 <div class="stat-card primary">
-                    <div class="stat-label">
-                        <span class="arrow">►</span> LIFETIME TOTAL
-                    </div>
+                    <div class="stat-label">Lifetime total</div>
                     <div class="stat-value" id="lifetimeCost">$0.00</div>
                     <div class="stat-sub" id="lifetimeTokens">0 tokens</div>
                 </div>
 
-                <!-- Days Active -->
                 <div class="stat-card">
-                    <div class="stat-label">
-                        <span class="arrow">►</span> DAYS ACTIVE
-                    </div>
+                    <div class="stat-label">Days active</div>
                     <div class="stat-value" id="daysActive">0</div>
                     <div class="stat-sub">days</div>
                 </div>
 
-                <!-- Current Streak -->
                 <div class="stat-card">
-                    <div class="stat-label">
-                        <span class="arrow">►</span> CURRENT STREAK
-                    </div>
+                    <div class="stat-label">Current streak</div>
                     <div class="stat-value" id="currentStreak">0</div>
                     <div class="stat-sub" id="longestStreak">Longest: 0</div>
                 </div>
 
-                <!-- Daily Velocity -->
                 <div class="stat-card">
-                    <div class="stat-label">
-                        <span class="arrow">►</span> DAILY AVG (7d)
-                    </div>
+                    <div class="stat-label">Daily avg (7d)</div>
                     <div class="stat-value" id="dailyCost">$0.00</div>
                     <div class="stat-sub" id="dailyTokens">0 tokens</div>
                 </div>
 
-                <!-- Monthly -->
                 <div class="stat-card">
-                    <div class="stat-label">
-                        <span class="arrow">►</span> THIS MONTH
-                    </div>
+                    <div class="stat-label">This month</div>
                     <div class="stat-value" id="monthlyCost">$0.00</div>
                     <div class="stat-sub" id="monthlyTokens">0 tokens</div>
                 </div>
 
-                <!-- Highest Day -->
                 <div class="stat-card highlight">
-                    <div class="stat-label">
-                        <span class="arrow">►</span> HIGHEST DAY
-                    </div>
+                    <div class="stat-label">Highest day</div>
                     <div class="stat-value" id="highestDayCost">$0.00</div>
                     <div class="stat-sub" id="highestDayDate">No data</div>
                 </div>
 
-                <!-- This Week -->
                 <div class="stat-card">
-                    <div class="stat-label">
-                        <span class="arrow">►</span> THIS WEEK
-                    </div>
+                    <div class="stat-label">This week</div>
                     <div class="stat-value" id="weeklyCost">$0.00</div>
                     <div class="stat-sub" id="weeklyTokens">0 tokens</div>
                 </div>
 
-                <!-- Average Per Day -->
                 <div class="stat-card">
-                    <div class="stat-label">
-                        <span class="arrow">►</span> AVG PER DAY
-                    </div>
+                    <div class="stat-label">Avg per day</div>
                     <div class="stat-value" id="avgDailyCost">$0.00</div>
                     <div class="stat-sub" id="avgDailyTokens">0 tokens</div>
                 </div>
@@ -104,19 +84,20 @@
         </section>
 
         <!-- Activity Heatmap -->
-        <section class="heatmap-section">
+        <section class="heatmap-section" aria-labelledby="heatmap-heading">
             <div class="section-header">
-                <h2>
-                    <span class="bracket">[</span> ACTIVITY HEATMAP <span class="bracket">]</span>
-                </h2>
-                <div class="heatmap-legend">
+                <div>
+                    <p class="section-label">Usage</p>
+                    <h2 id="heatmap-heading">Activity heatmap</h2>
+                </div>
+                <div class="heatmap-legend" aria-label="Heatmap intensity legend">
                     <span class="legend-label">Less</span>
                     <div class="legend-items">
-                        <div class="legend-box level-0"></div>
-                        <div class="legend-box level-1"></div>
-                        <div class="legend-box level-2"></div>
-                        <div class="legend-box level-3"></div>
-                        <div class="legend-box level-4"></div>
+                        <div class="legend-box level-0" aria-hidden="true"></div>
+                        <div class="legend-box level-1" aria-hidden="true"></div>
+                        <div class="legend-box level-2" aria-hidden="true"></div>
+                        <div class="legend-box level-3" aria-hidden="true"></div>
+                        <div class="legend-box level-4" aria-hidden="true"></div>
                     </div>
                     <span class="legend-label">More</span>
                 </div>
@@ -124,34 +105,36 @@
 
             <div class="heatmap-container">
                 <div class="heatmap-months" id="heatmapMonths"></div>
-                <div class="heatmap-grid" id="heatmapGrid"></div>
+                <div class="heatmap-grid" id="heatmapGrid" role="img" aria-label="Activity heatmap showing daily usage"></div>
             </div>
         </section>
 
         <!-- Recent Activity -->
-        <section class="activity-section">
+        <section class="activity-section" aria-labelledby="activity-heading">
             <div class="section-header">
-                <h2>
-                    <span class="bracket">[</span> RECENT ACTIVITY <span class="bracket">]</span>
-                </h2>
-                <div class="pagination-controls">
-                    <button class="pagination-btn" id="prevPage" disabled>◄ Prev</button>
-                    <span class="pagination-info" id="pageInfo">Page 1</span>
-                    <button class="pagination-btn" id="nextPage">Next ►</button>
+                <div>
+                    <p class="section-label">History</p>
+                    <h2 id="activity-heading">Recent activity</h2>
                 </div>
+                <nav class="pagination-controls" aria-label="Activity pagination">
+                    <button class="pagination-btn" id="prevPage" disabled aria-label="Previous page">Prev</button>
+                    <span class="pagination-info" id="pageInfo" aria-live="polite">Page 1</span>
+                    <button class="pagination-btn" id="nextPage" aria-label="Next page">Next</button>
+                </nav>
             </div>
 
-            <div class="activity-list" id="recentActivity">
+            <div class="activity-list" id="recentActivity" role="list">
                 <div class="loading">Loading activity...</div>
             </div>
         </section>
 
         <!-- Social Links -->
-        <section class="social-section" id="socialSection" style="display: none;">
+        <section class="social-section" id="socialSection" style="display: none;" aria-labelledby="social-heading">
             <div class="section-header">
-                <h2>
-                    <span class="bracket">[</span> CONNECT <span class="bracket">]</span>
-                </h2>
+                <div>
+                    <p class="section-label">Links</p>
+                    <h2 id="social-heading">Connect</h2>
+                </div>
             </div>
 
             <div class="social-links" id="socialLinks">
@@ -161,11 +144,8 @@
 
         <!-- Footer -->
         <footer>
-            <div class="ascii-divider">
-                ═══════════════════════════════════════════════════════════
-            </div>
             <p class="footer-text">
-                • Made with ❤️ and Claude Code
+                Made with Claude Code
             </p>
         </footer>
     </div>
