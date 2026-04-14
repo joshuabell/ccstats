@@ -10,10 +10,9 @@ package-lock.json
 .DS_Store
 Thumbs.db
 
-# IDE / tool files
+# IDE files
 .vscode/
 .idea/
-.mstro/
 *.swp
 *.swo
 *~

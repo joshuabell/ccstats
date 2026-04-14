@@ -23,7 +23,7 @@ A self-hosted analytics dashboard for tracking your Claude Code usage statistics
 - **Git-Based Storage**: All stats stored as JSON files in your repo
 - **Deploy Anywhere**: GitHub Pages, Cloudflare Pages, Netlify, or any static host
 
-## Quick Start (4 steps, < 5 minutes)
+## Quick Start (5 steps, < 5 minutes)
 
 ### 1. Fork & Clone
 
@@ -34,13 +34,13 @@ cd ccstats
 npm install
 ```
 
-### 2. Register This Machine
+### 2. Clear Demo Data
+
+The fork includes sample data from the original repo. Remove it so your dashboard starts fresh:
 
 ```bash
-npm run setup
+rm -f data/machines/*.json data/days.json data/stats.json
 ```
-
-This generates a unique machine ID and saves it to `.env`. Each machine that contributes data needs to run this once.
 
 ### 3. Configure Your Profile
 
@@ -58,7 +58,15 @@ window.CONFIG = {
 };
 ```
 
-### 4. Generate and Push Your Data
+### 4. Register This Machine
+
+```bash
+npm run setup
+```
+
+This generates a unique machine ID and saves it to `.env` (gitignored). Each machine that contributes data needs to run this once.
+
+### 5. Generate and Push Your Data
 
 ```bash
 npm run stats      # Collect usage data from this machine
@@ -241,7 +249,7 @@ This dashboard supports aggregating usage from **multiple machines** into a sing
 
 ### Adding a New Machine
 
-On each machine that should contribute data:
+On each additional machine that should contribute data:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/ccstats.git
@@ -251,6 +259,8 @@ npm run setup       # Generates a unique machine ID
 npm run stats       # Collect and aggregate
 npm run push        # Push to GitHub
 ```
+
+You don't need to clear demo data or edit `config.js` again — those changes are already in the repo from initial setup.
 
 ### How It Works
 
