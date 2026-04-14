@@ -1,10 +1,11 @@
 {
-  "name": "claude-code-stats-dashboard",
+  "name": "ccstats",
   "version": "2.0.0",
   "description": "Personal Claude Code usage analytics dashboard - GitHub Pages edition",
   "scripts": {
+    "setup": "node setup.js",
     "stats": "node stats.js",
-    "push": "git add . && git commit -m 'Update usage stats' && git push"
+    "push": "git add data/ && git commit -m 'Update usage stats' && git pull --rebase && git push"
   },
   "keywords": [
     "claude",
