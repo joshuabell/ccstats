@@ -1,306 +1,2450 @@
 [
   {
+    "date": "2025-04-15",
+    "totalCost": 3.099093,
+    "totalTokens": 5119233,
+    "inputTokens": 20827,
+    "outputTokens": 91208,
+    "cacheTokens": 318139
+  },
+  {
+    "date": "2025-04-17",
+    "totalCost": 1.936818,
+    "totalTokens": 3104388,
+    "inputTokens": 9579,
+    "outputTokens": 42980,
+    "cacheTokens": 181190
+  },
+  {
+    "date": "2025-04-18",
+    "totalCost": 4.74912,
+    "totalTokens": 6500156,
+    "inputTokens": 29411,
+    "outputTokens": 69437,
+    "cacheTokens": 723390
+  },
+  {
+    "date": "2025-04-19",
+    "totalCost": 4.525064,
+    "totalTokens": 7193650,
+    "inputTokens": 15595,
+    "outputTokens": 100968,
+    "cacheTokens": 650282
+  },
+  {
+    "date": "2025-04-20",
+    "totalCost": 3.510934,
+    "totalTokens": 5585470,
+    "inputTokens": 22934,
+    "outputTokens": 127372,
+    "cacheTokens": 642455
+  },
+  {
+    "date": "2025-04-22",
+    "totalCost": 2.639613,
+    "totalTokens": 4508128,
+    "inputTokens": 12937,
+    "outputTokens": 46271,
+    "cacheTokens": 401662
+  },
+  {
+    "date": "2025-04-25",
+    "totalCost": 1.704561,
+    "totalTokens": 2795281,
+    "inputTokens": 10493,
+    "outputTokens": 61786,
+    "cacheTokens": 275704
+  },
+  {
+    "date": "2025-04-26",
+    "totalCost": 0.349325,
+    "totalTokens": 623765,
+    "inputTokens": 1695,
+    "outputTokens": 13855,
+    "cacheTokens": 42245
+  },
+  {
+    "date": "2025-04-27",
+    "totalCost": 0.266617,
+    "totalTokens": 406774,
+    "inputTokens": 2027,
+    "outputTokens": 6654,
+    "cacheTokens": 32695
+  },
+  {
+    "date": "2025-04-29",
+    "totalCost": 11.012263,
+    "totalTokens": 18696440,
+    "inputTokens": 46981,
+    "outputTokens": 378259,
+    "cacheTokens": 1727323
+  },
+  {
+    "date": "2025-04-30",
+    "totalCost": 3.643484,
+    "totalTokens": 4884683,
+    "inputTokens": 9935,
+    "outputTokens": 72974,
+    "cacheTokens": 455371
+  },
+  {
+    "date": "2025-05-01",
+    "totalCost": 5.439817,
+    "totalTokens": 6849334,
+    "inputTokens": 33288,
+    "outputTokens": 128587,
+    "cacheTokens": 668689
+  },
+  {
+    "date": "2025-05-04",
+    "totalCost": 1.870176,
+    "totalTokens": 3217029,
+    "inputTokens": 9686,
+    "outputTokens": 38350,
+    "cacheTokens": 278492
+  },
+  {
+    "date": "2025-05-06",
+    "totalCost": 2.212934,
+    "totalTokens": 2745520,
+    "inputTokens": 6239,
+    "outputTokens": 49630,
+    "cacheTokens": 235715
+  },
+  {
+    "date": "2025-05-07",
+    "totalCost": 0.647824,
+    "totalTokens": 1014389,
+    "inputTokens": 3919,
+    "outputTokens": 18111,
+    "cacheTokens": 88103
+  },
+  {
+    "date": "2025-05-08",
+    "totalCost": 0.330963,
+    "totalTokens": 593896,
+    "inputTokens": 2318,
+    "outputTokens": 7998,
+    "cacheTokens": 63049
+  },
+  {
+    "date": "2025-05-09",
+    "totalCost": 4.036648,
+    "totalTokens": 4999344,
+    "inputTokens": 18190,
+    "outputTokens": 107548,
+    "cacheTokens": 506567
+  },
+  {
+    "date": "2025-05-10",
+    "totalCost": 4.319083,
+    "totalTokens": 5265403,
+    "inputTokens": 14372,
+    "outputTokens": 66912,
+    "cacheTokens": 453383
+  },
+  {
+    "date": "2025-05-12",
+    "totalCost": 0.583492,
+    "totalTokens": 715715,
+    "inputTokens": 3188,
+    "outputTokens": 7257,
+    "cacheTokens": 85825
+  },
+  {
+    "date": "2025-05-14",
+    "totalCost": 1.468058,
+    "totalTokens": 2095603,
+    "inputTokens": 7647,
+    "outputTokens": 34369,
+    "cacheTokens": 220905
+  },
+  {
+    "date": "2025-05-15",
+    "totalCost": 3.85524,
+    "totalTokens": 6025055,
+    "inputTokens": 26361,
+    "outputTokens": 142927,
+    "cacheTokens": 490339
+  },
+  {
+    "date": "2025-05-18",
+    "totalCost": 1.738159,
+    "totalTokens": 2956167,
+    "inputTokens": 13598,
+    "outputTokens": 31775,
+    "cacheTokens": 241023
+  },
+  {
+    "date": "2025-05-19",
+    "totalCost": 0.334248,
+    "totalTokens": 570186,
+    "inputTokens": 2295,
+    "outputTokens": 11384,
+    "cacheTokens": 29604
+  },
+  {
+    "date": "2025-05-20",
+    "totalCost": 3.325783,
+    "totalTokens": 4325946,
+    "inputTokens": 8889,
+    "outputTokens": 55311,
+    "cacheTokens": 460460
+  },
+  {
+    "date": "2025-05-22",
+    "totalCost": 3.933616,
+    "totalTokens": 4729253,
+    "inputTokens": 11526,
+    "outputTokens": 107159,
+    "cacheTokens": 519232
+  },
+  {
+    "date": "2025-05-23",
+    "totalCost": 2.402363,
+    "totalTokens": 3785248,
+    "inputTokens": 16941,
+    "outputTokens": 75655,
+    "cacheTokens": 313185
+  },
+  {
+    "date": "2025-05-27",
+    "totalCost": 3.099795,
+    "totalTokens": 5000570,
+    "inputTokens": 15851,
+    "outputTokens": 57041,
+    "cacheTokens": 361360
+  },
+  {
+    "date": "2025-05-28",
+    "totalCost": 4.108398,
+    "totalTokens": 7031312,
+    "inputTokens": 23372,
+    "outputTokens": 163030,
+    "cacheTokens": 421767
+  },
+  {
+    "date": "2025-05-29",
+    "totalCost": 1.015143,
+    "totalTokens": 1670420,
+    "inputTokens": 4867,
+    "outputTokens": 31251,
+    "cacheTokens": 177722
+  },
+  {
+    "date": "2025-05-30",
+    "totalCost": 3.009475,
+    "totalTokens": 4238421,
+    "inputTokens": 10966,
+    "outputTokens": 81930,
+    "cacheTokens": 271394
+  },
+  {
+    "date": "2025-05-31",
+    "totalCost": 13.501207,
+    "totalTokens": 19957119,
+    "inputTokens": 67216,
+    "outputTokens": 231461,
+    "cacheTokens": 2030812
+  },
+  {
+    "date": "2025-06-01",
+    "totalCost": 5.902557,
+    "totalTokens": 9682692,
+    "inputTokens": 38519,
+    "outputTokens": 153998,
+    "cacheTokens": 560802
+  },
+  {
+    "date": "2025-06-02",
+    "totalCost": 10.000094,
+    "totalTokens": 14590865,
+    "inputTokens": 70526,
+    "outputTokens": 326243,
+    "cacheTokens": 1450046
+  },
+  {
+    "date": "2025-06-04",
+    "totalCost": 52.660564,
+    "totalTokens": 66088376,
+    "inputTokens": 316112,
+    "outputTokens": 924551,
+    "cacheTokens": 6802528
+  },
+  {
+    "date": "2025-06-05",
+    "totalCost": 15.477657,
+    "totalTokens": 20332801,
+    "inputTokens": 79120,
+    "outputTokens": 381709,
+    "cacheTokens": 2024687
+  },
+  {
+    "date": "2025-06-06",
+    "totalCost": 16.509363,
+    "totalTokens": 21184191,
+    "inputTokens": 101710,
+    "outputTokens": 268994,
+    "cacheTokens": 2725338
+  },
+  {
+    "date": "2025-06-08",
+    "totalCost": 11.528741,
+    "totalTokens": 20285156,
+    "inputTokens": 60407,
+    "outputTokens": 308067,
+    "cacheTokens": 1517314
+  },
+  {
+    "date": "2025-06-09",
+    "totalCost": 2.634467,
+    "totalTokens": 4315394,
+    "inputTokens": 18538,
+    "outputTokens": 101647,
+    "cacheTokens": 284198
+  },
+  {
+    "date": "2025-06-10",
+    "totalCost": 7.599115,
+    "totalTokens": 9958265,
+    "inputTokens": 27416,
+    "outputTokens": 244061,
+    "cacheTokens": 700500
+  },
+  {
+    "date": "2025-06-11",
+    "totalCost": 19.301364,
+    "totalTokens": 30023155,
+    "inputTokens": 145805,
+    "outputTokens": 410197,
+    "cacheTokens": 3117174
+  },
+  {
+    "date": "2025-06-13",
+    "totalCost": 60.10927,
+    "totalTokens": 78643406,
+    "inputTokens": 350781,
+    "outputTokens": 1821431,
+    "cacheTokens": 4538950
+  },
+  {
+    "date": "2025-06-14",
+    "totalCost": 8.784806,
+    "totalTokens": 12344195,
+    "inputTokens": 37997,
+    "outputTokens": 207295,
+    "cacheTokens": 743644
+  },
+  {
+    "date": "2025-06-15",
+    "totalCost": 5.752244,
+    "totalTokens": 7574166,
+    "inputTokens": 32081,
+    "outputTokens": 113680,
+    "cacheTokens": 760223
+  },
+  {
+    "date": "2025-06-16",
+    "totalCost": 10.644901,
+    "totalTokens": 15931984,
+    "inputTokens": 74207,
+    "outputTokens": 197594,
+    "cacheTokens": 858106
+  },
+  {
+    "date": "2025-06-17",
+    "totalCost": 2.802661,
+    "totalTokens": 4155109,
+    "inputTokens": 19030,
+    "outputTokens": 95306,
+    "cacheTokens": 470311
+  },
+  {
+    "date": "2025-06-18",
+    "totalCost": 2.280955,
+    "totalTokens": 3807998,
+    "inputTokens": 10892,
+    "outputTokens": 88684,
+    "cacheTokens": 333110
+  },
+  {
+    "date": "2025-06-19",
+    "totalCost": 40.744752,
+    "totalTokens": 58648190,
+    "inputTokens": 236731,
+    "outputTokens": 1258979,
+    "cacheTokens": 6995895
+  },
+  {
+    "date": "2025-06-21",
+    "totalCost": 13.456079,
+    "totalTokens": 16829609,
+    "inputTokens": 80133,
+    "outputTokens": 410919,
+    "cacheTokens": 1963032
+  },
+  {
+    "date": "2025-06-22",
+    "totalCost": 1.73178,
+    "totalTokens": 3042836,
+    "inputTokens": 14881,
+    "outputTokens": 61480,
+    "cacheTokens": 233953
+  },
+  {
+    "date": "2025-06-24",
+    "totalCost": 4.164111,
+    "totalTokens": 7484064,
+    "inputTokens": 23844,
+    "outputTokens": 80590,
+    "cacheTokens": 913820
+  },
+  {
+    "date": "2025-06-25",
+    "totalCost": 8.394422,
+    "totalTokens": 12946873,
+    "inputTokens": 42351,
+    "outputTokens": 227637,
+    "cacheTokens": 834201
+  },
+  {
+    "date": "2025-06-26",
+    "totalCost": 21.124497,
+    "totalTokens": 28973260,
+    "inputTokens": 139317,
+    "outputTokens": 701587,
+    "cacheTokens": 3059873
+  },
+  {
+    "date": "2025-06-27",
+    "totalCost": 10.627028,
+    "totalTokens": 15024633,
+    "inputTokens": 39253,
+    "outputTokens": 253325,
+    "cacheTokens": 840984
+  },
+  {
+    "date": "2025-06-28",
+    "totalCost": 10.685274,
+    "totalTokens": 15098448,
+    "inputTokens": 43740,
+    "outputTokens": 204607,
+    "cacheTokens": 870452
+  },
+  {
+    "date": "2025-06-30",
+    "totalCost": 0.7988,
+    "totalTokens": 1359987,
+    "inputTokens": 4548,
+    "outputTokens": 28968,
+    "cacheTokens": 150350
+  },
+  {
+    "date": "2025-07-01",
+    "totalCost": 20.259435,
+    "totalTokens": 30945215,
+    "inputTokens": 121660,
+    "outputTokens": 555723,
+    "cacheTokens": 3734207
+  },
+  {
+    "date": "2025-07-02",
+    "totalCost": 18.930547,
+    "totalTokens": 24799453,
+    "inputTokens": 69986,
+    "outputTokens": 308122,
+    "cacheTokens": 3064017
+  },
+  {
+    "date": "2025-07-03",
+    "totalCost": 1.30434,
+    "totalTokens": 1720516,
+    "inputTokens": 6952,
+    "outputTokens": 39058,
+    "cacheTokens": 191821
+  },
+  {
+    "date": "2025-07-04",
+    "totalCost": 1.028437,
+    "totalTokens": 1700251,
+    "inputTokens": 5352,
+    "outputTokens": 40704,
+    "cacheTokens": 203134
+  },
+  {
+    "date": "2025-07-05",
+    "totalCost": 3.225888,
+    "totalTokens": 5336505,
+    "inputTokens": 23062,
+    "outputTokens": 118930,
+    "cacheTokens": 492429
+  },
+  {
+    "date": "2025-07-06",
+    "totalCost": 8.111806,
+    "totalTokens": 14373794,
+    "inputTokens": 62108,
+    "outputTokens": 314633,
+    "cacheTokens": 1762269
+  },
+  {
+    "date": "2025-07-07",
+    "totalCost": 3.213348,
+    "totalTokens": 4921838,
+    "inputTokens": 24484,
+    "outputTokens": 56042,
+    "cacheTokens": 385690
+  },
+  {
+    "date": "2025-07-08",
+    "totalCost": 1.368124,
+    "totalTokens": 2340060,
+    "inputTokens": 7593,
+    "outputTokens": 57292,
+    "cacheTokens": 232357
+  },
+  {
+    "date": "2025-07-09",
+    "totalCost": 10.989742,
+    "totalTokens": 18351289,
+    "inputTokens": 44453,
+    "outputTokens": 302331,
+    "cacheTokens": 1236331
+  },
+  {
+    "date": "2025-07-10",
+    "totalCost": 18.473924,
+    "totalTokens": 31964208,
+    "inputTokens": 115551,
+    "outputTokens": 749201,
+    "cacheTokens": 1856095
+  },
+  {
+    "date": "2025-07-11",
+    "totalCost": 15.552879,
+    "totalTokens": 23846264,
+    "inputTokens": 84118,
+    "outputTokens": 443379,
+    "cacheTokens": 2312304
+  },
+  {
+    "date": "2025-07-12",
+    "totalCost": 8.918173,
+    "totalTokens": 13031599,
+    "inputTokens": 40419,
+    "outputTokens": 186201,
+    "cacheTokens": 1426150
+  },
+  {
+    "date": "2025-07-13",
+    "totalCost": 0.684625,
+    "totalTokens": 862372,
+    "inputTokens": 2186,
+    "outputTokens": 17889,
+    "cacheTokens": 105703
+  },
+  {
+    "date": "2025-07-14",
+    "totalCost": 6.311287,
+    "totalTokens": 8621081,
+    "inputTokens": 27809,
+    "outputTokens": 188116,
+    "cacheTokens": 658061
+  },
+  {
+    "date": "2025-07-15",
+    "totalCost": 20.092995,
+    "totalTokens": 32431273,
+    "inputTokens": 122627,
+    "outputTokens": 684870,
+    "cacheTokens": 2986586
+  },
+  {
+    "date": "2025-07-16",
+    "totalCost": 5.148232,
+    "totalTokens": 8339101,
+    "inputTokens": 28296,
+    "outputTokens": 185338,
+    "cacheTokens": 866782
+  },
+  {
+    "date": "2025-07-18",
+    "totalCost": 4.525692,
+    "totalTokens": 7851756,
+    "inputTokens": 26474,
+    "outputTokens": 109650,
+    "cacheTokens": 717479
+  },
+  {
+    "date": "2025-07-20",
+    "totalCost": 7.027895,
+    "totalTokens": 11885023,
+    "inputTokens": 56114,
+    "outputTokens": 169000,
+    "cacheTokens": 844425
+  },
+  {
+    "date": "2025-07-21",
+    "totalCost": 3.29918,
+    "totalTokens": 5214987,
+    "inputTokens": 10873,
+    "outputTokens": 54103,
+    "cacheTokens": 493291
+  },
+  {
+    "date": "2025-07-22",
+    "totalCost": 4.361181,
+    "totalTokens": 7153818,
+    "inputTokens": 24311,
+    "outputTokens": 160468,
+    "cacheTokens": 815900
+  },
+  {
+    "date": "2025-07-23",
+    "totalCost": 7.150571,
+    "totalTokens": 9076673,
+    "inputTokens": 44900,
+    "outputTokens": 115536,
+    "cacheTokens": 545917
+  },
+  {
+    "date": "2025-07-25",
+    "totalCost": 11.081099,
+    "totalTokens": 15512078,
+    "inputTokens": 56534,
+    "outputTokens": 362245,
+    "cacheTokens": 1913415
+  },
+  {
+    "date": "2025-07-26",
+    "totalCost": 4.74477,
+    "totalTokens": 6942524,
+    "inputTokens": 14442,
+    "outputTokens": 143349,
+    "cacheTokens": 617320
+  },
+  {
+    "date": "2025-07-27",
+    "totalCost": 6.953056,
+    "totalTokens": 12183101,
+    "inputTokens": 41215,
+    "outputTokens": 140246,
+    "cacheTokens": 992913
+  },
+  {
+    "date": "2025-07-29",
+    "totalCost": 21.404967,
+    "totalTokens": 31879731,
+    "inputTokens": 147222,
+    "outputTokens": 403211,
+    "cacheTokens": 2463923
+  },
+  {
+    "date": "2025-07-30",
+    "totalCost": 5.695507,
+    "totalTokens": 9470526,
+    "inputTokens": 32870,
+    "outputTokens": 181943,
+    "cacheTokens": 1015601
+  },
+  {
+    "date": "2025-07-31",
+    "totalCost": 17.028854,
+    "totalTokens": 21174663,
+    "inputTokens": 49135,
+    "outputTokens": 342618,
+    "cacheTokens": 1953450
+  },
+  {
+    "date": "2025-08-01",
+    "totalCost": 17.423069,
+    "totalTokens": 21488818,
+    "inputTokens": 57036,
+    "outputTokens": 237194,
+    "cacheTokens": 1953247
+  },
+  {
+    "date": "2025-08-02",
+    "totalCost": 8.99769,
+    "totalTokens": 12916380,
+    "inputTokens": 55765,
+    "outputTokens": 193564,
+    "cacheTokens": 1543460
+  },
+  {
+    "date": "2025-08-03",
+    "totalCost": 7.140127,
+    "totalTokens": 9444697,
+    "inputTokens": 30391,
+    "outputTokens": 145114,
+    "cacheTokens": 488526
+  },
+  {
+    "date": "2025-08-05",
+    "totalCost": 17.968492,
+    "totalTokens": 30010878,
+    "inputTokens": 125694,
+    "outputTokens": 478846,
+    "cacheTokens": 3162588
+  },
+  {
+    "date": "2025-08-06",
+    "totalCost": 4.979739,
+    "totalTokens": 6447098,
+    "inputTokens": 29593,
+    "outputTokens": 69913,
+    "cacheTokens": 681103
+  },
+  {
+    "date": "2025-08-07",
+    "totalCost": 20.308091,
+    "totalTokens": 33636293,
+    "inputTokens": 108254,
+    "outputTokens": 819844,
+    "cacheTokens": 4165533
+  },
+  {
+    "date": "2025-08-08",
+    "totalCost": 11.986405,
+    "totalTokens": 19019234,
+    "inputTokens": 72288,
+    "outputTokens": 421700,
+    "cacheTokens": 1390261
+  },
+  {
+    "date": "2025-08-10",
+    "totalCost": 8.219239,
+    "totalTokens": 14105046,
+    "inputTokens": 57858,
+    "outputTokens": 247790,
+    "cacheTokens": 912548
+  },
+  {
+    "date": "2025-08-12",
+    "totalCost": 53.00765,
+    "totalTokens": 67404764,
+    "inputTokens": 176854,
+    "outputTokens": 1339504,
+    "cacheTokens": 5678329
+  },
+  {
+    "date": "2025-08-14",
+    "totalCost": 54.936779,
+    "totalTokens": 96497808,
+    "inputTokens": 412731,
+    "outputTokens": 1776076,
+    "cacheTokens": 11911970
+  },
+  {
+    "date": "2025-08-15",
+    "totalCost": 6.96872,
+    "totalTokens": 11643284,
+    "inputTokens": 56999,
+    "outputTokens": 222136,
+    "cacheTokens": 1468966
+  },
+  {
+    "date": "2025-08-16",
+    "totalCost": 11.682105,
+    "totalTokens": 20651804,
+    "inputTokens": 101246,
+    "outputTokens": 321915,
+    "cacheTokens": 1490899
+  },
+  {
+    "date": "2025-08-18",
+    "totalCost": 90.696632,
+    "totalTokens": 135680555,
+    "inputTokens": 631483,
+    "outputTokens": 3214152,
+    "cacheTokens": 15602445
+  },
+  {
+    "date": "2025-08-19",
+    "totalCost": 38.235466,
+    "totalTokens": 66537697,
+    "inputTokens": 320930,
+    "outputTokens": 1489561,
+    "cacheTokens": 6260079
+  },
+  {
+    "date": "2025-08-20",
+    "totalCost": 54.721675,
+    "totalTokens": 90726134,
+    "inputTokens": 199772,
+    "outputTokens": 2003681,
+    "cacheTokens": 8273850
+  },
+  {
+    "date": "2025-08-21",
+    "totalCost": 25.505962,
+    "totalTokens": 41519624,
+    "inputTokens": 136000,
+    "outputTokens": 562266,
+    "cacheTokens": 3008134
+  },
+  {
+    "date": "2025-08-22",
+    "totalCost": 42.822516,
+    "totalTokens": 56700626,
+    "inputTokens": 120277,
+    "outputTokens": 819760,
+    "cacheTokens": 3828776
+  },
+  {
+    "date": "2025-08-23",
+    "totalCost": 5.192884,
+    "totalTokens": 7963848,
+    "inputTokens": 36819,
+    "outputTokens": 82905,
+    "cacheTokens": 484582
+  },
+  {
+    "date": "2025-08-26",
+    "totalCost": 21.258407,
+    "totalTokens": 28702733,
+    "inputTokens": 140821,
+    "outputTokens": 496453,
+    "cacheTokens": 2279866
+  },
+  {
+    "date": "2025-08-27",
+    "totalCost": 8.86774,
+    "totalTokens": 11153761,
+    "inputTokens": 37677,
+    "outputTokens": 138266,
+    "cacheTokens": 1398816
+  },
+  {
+    "date": "2025-08-28",
+    "totalCost": 120.79589,
+    "totalTokens": 166956367,
+    "inputTokens": 498841,
+    "outputTokens": 1790485,
+    "cacheTokens": 17143446
+  },
+  {
+    "date": "2025-08-29",
+    "totalCost": 18.423913,
+    "totalTokens": 28276451,
+    "inputTokens": 69090,
+    "outputTokens": 457301,
+    "cacheTokens": 1517654
+  },
+  {
+    "date": "2025-08-30",
+    "totalCost": 10.155449,
+    "totalTokens": 14051287,
+    "inputTokens": 59566,
+    "outputTokens": 158714,
+    "cacheTokens": 1592671
+  },
+  {
+    "date": "2025-08-31",
+    "totalCost": 5.553771,
+    "totalTokens": 9386269,
+    "inputTokens": 24713,
+    "outputTokens": 98122,
+    "cacheTokens": 1041678
+  },
+  {
+    "date": "2025-09-01",
+    "totalCost": 25.298779,
+    "totalTokens": 33419614,
+    "inputTokens": 86425,
+    "outputTokens": 382526,
+    "cacheTokens": 3783431
+  },
+  {
+    "date": "2025-09-02",
+    "totalCost": 16.321104,
+    "totalTokens": 29042054,
+    "inputTokens": 70384,
+    "outputTokens": 709763,
+    "cacheTokens": 2774236
+  },
+  {
+    "date": "2025-09-03",
+    "totalCost": 21.428759,
+    "totalTokens": 28268595,
+    "inputTokens": 129459,
+    "outputTokens": 608872,
+    "cacheTokens": 2048218
+  },
+  {
+    "date": "2025-09-04",
+    "totalCost": 19.406628,
+    "totalTokens": 32263900,
+    "inputTokens": 68089,
+    "outputTokens": 386311,
+    "cacheTokens": 3074251
+  },
+  {
+    "date": "2025-09-07",
+    "totalCost": 3.371893,
+    "totalTokens": 4950560,
+    "inputTokens": 18719,
+    "outputTokens": 69698,
+    "cacheTokens": 481626
+  },
+  {
+    "date": "2025-09-08",
+    "totalCost": 15.218258,
+    "totalTokens": 20300359,
+    "inputTokens": 71060,
+    "outputTokens": 504268,
+    "cacheTokens": 2015415
+  },
+  {
+    "date": "2025-09-09",
+    "totalCost": 39.923348,
+    "totalTokens": 49032296,
+    "inputTokens": 205360,
+    "outputTokens": 638119,
+    "cacheTokens": 3583599
+  },
+  {
+    "date": "2025-09-10",
+    "totalCost": 8.940852,
+    "totalTokens": 12688494,
+    "inputTokens": 48452,
+    "outputTokens": 312096,
+    "cacheTokens": 1390348
+  },
+  {
+    "date": "2025-09-11",
+    "totalCost": 40.336229,
+    "totalTokens": 50470311,
+    "inputTokens": 156045,
+    "outputTokens": 607746,
+    "cacheTokens": 6504143
+  },
+  {
+    "date": "2025-09-13",
+    "totalCost": 43.442185,
+    "totalTokens": 70759602,
+    "inputTokens": 274444,
+    "outputTokens": 1045031,
+    "cacheTokens": 6169174
+  },
+  {
+    "date": "2025-09-15",
+    "totalCost": 3.600495,
+    "totalTokens": 5578341,
+    "inputTokens": 13141,
+    "outputTokens": 126450,
+    "cacheTokens": 686855
+  },
+  {
+    "date": "2025-09-16",
+    "totalCost": 64.443395,
+    "totalTokens": 108386487,
+    "inputTokens": 535829,
+    "outputTokens": 2078930,
+    "cacheTokens": 12542904
+  },
+  {
+    "date": "2025-09-17",
+    "totalCost": 8.547129,
+    "totalTokens": 11060598,
+    "inputTokens": 43370,
+    "outputTokens": 216006,
+    "cacheTokens": 1025685
+  },
+  {
+    "date": "2025-09-18",
+    "totalCost": 52.017486,
+    "totalTokens": 76742956,
+    "inputTokens": 210981,
+    "outputTokens": 1126910,
+    "cacheTokens": 6346423
+  },
+  {
+    "date": "2025-09-19",
+    "totalCost": 30.933914,
+    "totalTokens": 51636368,
+    "inputTokens": 113199,
+    "outputTokens": 1246928,
+    "cacheTokens": 5025073
+  },
+  {
+    "date": "2025-09-20",
+    "totalCost": 18.887541,
+    "totalTokens": 29803425,
+    "inputTokens": 133724,
+    "outputTokens": 363362,
+    "cacheTokens": 2645680
+  },
+  {
+    "date": "2025-09-21",
+    "totalCost": 14.047244,
+    "totalTokens": 22920394,
+    "inputTokens": 52736,
+    "outputTokens": 500651,
+    "cacheTokens": 2587537
+  },
+  {
+    "date": "2025-09-22",
+    "totalCost": 25.769289,
+    "totalTokens": 31593164,
+    "inputTokens": 90642,
+    "outputTokens": 736842,
+    "cacheTokens": 2409578
+  },
+  {
+    "date": "2025-09-23",
+    "totalCost": 11.17303,
+    "totalTokens": 17798438,
+    "inputTokens": 42824,
+    "outputTokens": 231657,
+    "cacheTokens": 2014228
+  },
+  {
+    "date": "2025-09-25",
+    "totalCost": 41.813912,
+    "totalTokens": 53233163,
+    "inputTokens": 145053,
+    "outputTokens": 943306,
+    "cacheTokens": 4986780
+  },
+  {
+    "date": "2025-09-27",
+    "totalCost": 31.0395,
+    "totalTokens": 52338453,
+    "inputTokens": 148061,
+    "outputTokens": 770466,
+    "cacheTokens": 4808289
+  },
+  {
+    "date": "2025-09-28",
+    "totalCost": 17.099541,
+    "totalTokens": 27411847,
+    "inputTokens": 60615,
+    "outputTokens": 420434,
+    "cacheTokens": 2075515
+  },
+  {
+    "date": "2025-09-29",
+    "totalCost": 122.578667,
+    "totalTokens": 219164433,
+    "inputTokens": 548360,
+    "outputTokens": 3535272,
+    "cacheTokens": 24237510
+  },
+  {
+    "date": "2025-09-30",
+    "totalCost": 44.96809,
+    "totalTokens": 59662322,
+    "inputTokens": 131411,
+    "outputTokens": 1008240,
+    "cacheTokens": 4830047
+  },
+  {
+    "date": "2025-10-02",
+    "totalCost": 11.801689,
+    "totalTokens": 16332571,
+    "inputTokens": 45015,
+    "outputTokens": 398404,
+    "cacheTokens": 1118593
+  },
+  {
+    "date": "2025-10-03",
+    "totalCost": 34.114059,
+    "totalTokens": 47118212,
+    "inputTokens": 227530,
+    "outputTokens": 1048730,
+    "cacheTokens": 5957904
+  },
+  {
+    "date": "2025-10-04",
+    "totalCost": 2.653331,
+    "totalTokens": 4492431,
+    "inputTokens": 20903,
+    "outputTokens": 90494,
+    "cacheTokens": 271940
+  },
+  {
+    "date": "2025-10-05",
+    "totalCost": 9.299858,
+    "totalTokens": 14481000,
+    "inputTokens": 66498,
+    "outputTokens": 358330,
+    "cacheTokens": 1469369
+  },
+  {
+    "date": "2025-10-06",
+    "totalCost": 6.33541,
+    "totalTokens": 10185953,
+    "inputTokens": 49188,
+    "outputTokens": 105675,
+    "cacheTokens": 524017
+  },
+  {
+    "date": "2025-10-07",
+    "totalCost": 34.623783,
+    "totalTokens": 56479523,
+    "inputTokens": 188890,
+    "outputTokens": 1236181,
+    "cacheTokens": 3569562
+  },
+  {
+    "date": "2025-10-09",
+    "totalCost": 50.799642,
+    "totalTokens": 80981456,
+    "inputTokens": 234712,
+    "outputTokens": 886802,
+    "cacheTokens": 4809836
+  },
+  {
+    "date": "2025-10-10",
+    "totalCost": 34.780585,
+    "totalTokens": 47879947,
+    "inputTokens": 160968,
+    "outputTokens": 1176622,
+    "cacheTokens": 5747508
+  },
+  {
+    "date": "2025-10-11",
+    "totalCost": 50.83205,
+    "totalTokens": 77927684,
+    "inputTokens": 190342,
+    "outputTokens": 1516679,
+    "cacheTokens": 8593389
+  },
+  {
+    "date": "2025-10-13",
+    "totalCost": 13.041141,
+    "totalTokens": 18139987,
+    "inputTokens": 49854,
+    "outputTokens": 211903,
+    "cacheTokens": 1457212
+  },
+  {
+    "date": "2025-10-14",
+    "totalCost": 5.642723,
+    "totalTokens": 9560431,
+    "inputTokens": 42586,
+    "outputTokens": 190053,
+    "cacheTokens": 630990
+  },
+  {
+    "date": "2025-10-16",
+    "totalCost": 29.180613,
+    "totalTokens": 41952519,
+    "inputTokens": 124672,
+    "outputTokens": 686684,
+    "cacheTokens": 2161954
+  },
+  {
+    "date": "2025-10-17",
+    "totalCost": 7.490864,
+    "totalTokens": 10013022,
+    "inputTokens": 49083,
+    "outputTokens": 249769,
+    "cacheTokens": 1171733
+  },
+  {
+    "date": "2025-10-18",
+    "totalCost": 50.430656,
+    "totalTokens": 77121848,
+    "inputTokens": 216948,
+    "outputTokens": 1514194,
+    "cacheTokens": 7785740
+  },
+  {
+    "date": "2025-10-19",
+    "totalCost": 27.894028,
+    "totalTokens": 38111653,
+    "inputTokens": 87838,
+    "outputTokens": 788312,
+    "cacheTokens": 2848030
+  },
+  {
+    "date": "2025-10-20",
+    "totalCost": 3.727295,
+    "totalTokens": 6528169,
+    "inputTokens": 19395,
+    "outputTokens": 88974,
+    "cacheTokens": 503852
+  },
+  {
+    "date": "2025-10-21",
+    "totalCost": 31.049423,
+    "totalTokens": 41321815,
+    "inputTokens": 136877,
+    "outputTokens": 814858,
+    "cacheTokens": 4376582
+  },
+  {
+    "date": "2025-10-22",
+    "totalCost": 42.309937,
+    "totalTokens": 55036705,
+    "inputTokens": 148304,
+    "outputTokens": 806726,
+    "cacheTokens": 5702214
+  },
+  {
+    "date": "2025-10-23",
+    "totalCost": 12.905137,
+    "totalTokens": 15983662,
+    "inputTokens": 71213,
+    "outputTokens": 331702,
+    "cacheTokens": 1404426
+  },
+  {
+    "date": "2025-10-24",
+    "totalCost": 143.396493,
+    "totalTokens": 255447709,
+    "inputTokens": 1113700,
+    "outputTokens": 3244124,
+    "cacheTokens": 25368344
+  },
+  {
+    "date": "2025-10-25",
+    "totalCost": 24.68328,
+    "totalTokens": 32020393,
+    "inputTokens": 76192,
+    "outputTokens": 522664,
+    "cacheTokens": 3319866
+  },
+  {
+    "date": "2025-10-26",
+    "totalCost": 7.65682,
+    "totalTokens": 13197226,
+    "inputTokens": 39756,
+    "outputTokens": 303585,
+    "cacheTokens": 1680987
+  },
+  {
+    "date": "2025-10-27",
+    "totalCost": 11.149075,
+    "totalTokens": 19281542,
+    "inputTokens": 76936,
+    "outputTokens": 414026,
+    "cacheTokens": 2265778
+  },
+  {
+    "date": "2025-10-28",
+    "totalCost": 18.056379,
+    "totalTokens": 23838481,
+    "inputTokens": 84826,
+    "outputTokens": 560409,
+    "cacheTokens": 1921750
+  },
+  {
+    "date": "2025-10-30",
+    "totalCost": 30.282423,
+    "totalTokens": 41966020,
+    "inputTokens": 94781,
+    "outputTokens": 766968,
+    "cacheTokens": 4653533
+  },
+  {
+    "date": "2025-10-31",
+    "totalCost": 37.352605,
+    "totalTokens": 45389172,
+    "inputTokens": 157293,
+    "outputTokens": 786780,
+    "cacheTokens": 4011119
+  },
+  {
+    "date": "2025-11-01",
+    "totalCost": 6.676087,
+    "totalTokens": 9401915,
+    "inputTokens": 36514,
+    "outputTokens": 101164,
+    "cacheTokens": 893112
+  },
+  {
+    "date": "2025-11-02",
+    "totalCost": 23.540536,
+    "totalTokens": 32642701,
+    "inputTokens": 105718,
+    "outputTokens": 504323,
+    "cacheTokens": 3501213
+  },
+  {
+    "date": "2025-11-03",
+    "totalCost": 19.213229,
+    "totalTokens": 30926923,
+    "inputTokens": 90097,
+    "outputTokens": 476745,
+    "cacheTokens": 3304071
+  },
+  {
+    "date": "2025-11-04",
+    "totalCost": 21.2953,
+    "totalTokens": 26371979,
+    "inputTokens": 121111,
+    "outputTokens": 307769,
+    "cacheTokens": 1382728
+  },
+  {
+    "date": "2025-11-05",
+    "totalCost": 56.31578,
+    "totalTokens": 87228533,
+    "inputTokens": 401201,
+    "outputTokens": 1200460,
+    "cacheTokens": 11283628
+  },
+  {
+    "date": "2025-11-08",
+    "totalCost": 18.070025,
+    "totalTokens": 21874705,
+    "inputTokens": 88945,
+    "outputTokens": 486528,
+    "cacheTokens": 2303877
+  },
+  {
+    "date": "2025-11-09",
+    "totalCost": 36.571139,
+    "totalTokens": 60778109,
+    "inputTokens": 262992,
+    "outputTokens": 925943,
+    "cacheTokens": 4119166
+  },
+  {
+    "date": "2025-11-10",
+    "totalCost": 27.462863,
+    "totalTokens": 48722120,
+    "inputTokens": 137474,
+    "outputTokens": 777468,
+    "cacheTokens": 4609857
+  },
+  {
+    "date": "2025-11-11",
+    "totalCost": 6.426249,
+    "totalTokens": 11032470,
+    "inputTokens": 49669,
+    "outputTokens": 218809,
+    "cacheTokens": 1299980
+  },
+  {
+    "date": "2025-11-12",
+    "totalCost": 30.570364,
+    "totalTokens": 41053817,
+    "inputTokens": 184715,
+    "outputTokens": 787753,
+    "cacheTokens": 4739096
+  },
+  {
+    "date": "2025-11-13",
+    "totalCost": 26.680331,
+    "totalTokens": 34423853,
+    "inputTokens": 141430,
+    "outputTokens": 477716,
+    "cacheTokens": 2380878
+  },
+  {
+    "date": "2025-11-14",
+    "totalCost": 11.998835,
+    "totalTokens": 15131328,
+    "inputTokens": 48474,
+    "outputTokens": 227185,
+    "cacheTokens": 1095030
+  },
+  {
+    "date": "2025-11-15",
+    "totalCost": 47.10629,
+    "totalTokens": 65847037,
+    "inputTokens": 170965,
+    "outputTokens": 1237083,
+    "cacheTokens": 4373128
+  },
+  {
+    "date": "2025-11-16",
+    "totalCost": 27.590158,
+    "totalTokens": 33382295,
+    "inputTokens": 104409,
+    "outputTokens": 825396,
+    "cacheTokens": 2973517
+  },
+  {
+    "date": "2025-11-18",
+    "totalCost": 15.925622,
+    "totalTokens": 26177421,
+    "inputTokens": 114128,
+    "outputTokens": 581069,
+    "cacheTokens": 3055686
+  },
+  {
+    "date": "2025-11-19",
+    "totalCost": 17.812113,
+    "totalTokens": 24359232,
+    "inputTokens": 105144,
+    "outputTokens": 284409,
+    "cacheTokens": 1228183
+  },
+  {
+    "date": "2025-11-20",
+    "totalCost": 45.607634,
+    "totalTokens": 69431925,
+    "inputTokens": 331647,
+    "outputTokens": 1087295,
+    "cacheTokens": 6302112
+  },
+  {
+    "date": "2025-11-21",
+    "totalCost": 72.204618,
+    "totalTokens": 100442679,
+    "inputTokens": 412779,
+    "outputTokens": 2050537,
+    "cacheTokens": 5815381
+  },
+  {
+    "date": "2025-11-22",
+    "totalCost": 45.055041,
+    "totalTokens": 66086098,
+    "inputTokens": 210920,
+    "outputTokens": 838487,
+    "cacheTokens": 4404395
+  },
+  {
+    "date": "2025-11-23",
+    "totalCost": 6.130538,
+    "totalTokens": 8298344,
+    "inputTokens": 25219,
+    "outputTokens": 135819,
+    "cacheTokens": 1000156
+  },
+  {
+    "date": "2025-11-24",
+    "totalCost": 39.446352,
+    "totalTokens": 53951814,
+    "inputTokens": 193269,
+    "outputTokens": 1211046,
+    "cacheTokens": 3835806
+  },
+  {
+    "date": "2025-11-25",
+    "totalCost": 96.52523,
+    "totalTokens": 133100883,
+    "inputTokens": 298805,
+    "outputTokens": 3188663,
+    "cacheTokens": 13015993
+  },
+  {
+    "date": "2025-11-26",
+    "totalCost": 77.01486,
+    "totalTokens": 121725167,
+    "inputTokens": 460014,
+    "outputTokens": 2724774,
+    "cacheTokens": 14368130
+  },
+  {
+    "date": "2025-11-27",
+    "totalCost": 52.428473,
+    "totalTokens": 66234622,
+    "inputTokens": 165533,
+    "outputTokens": 712592,
+    "cacheTokens": 7744149
+  },
+  {
+    "date": "2025-11-28",
+    "totalCost": 3.493026,
+    "totalTokens": 4403478,
+    "inputTokens": 16408,
+    "outputTokens": 45634,
+    "cacheTokens": 416778
+  },
+  {
+    "date": "2025-11-29",
+    "totalCost": 56.763821,
+    "totalTokens": 83184704,
+    "inputTokens": 336736,
+    "outputTokens": 1960260,
+    "cacheTokens": 8714368
+  },
+  {
+    "date": "2025-11-30",
+    "totalCost": 19.756521,
+    "totalTokens": 29395625,
+    "inputTokens": 118240,
+    "outputTokens": 374244,
+    "cacheTokens": 3406349
+  },
+  {
+    "date": "2025-12-01",
+    "totalCost": 34.268566,
+    "totalTokens": 57827105,
+    "inputTokens": 259353,
+    "outputTokens": 1208217,
+    "cacheTokens": 4137042
+  },
+  {
+    "date": "2025-12-02",
+    "totalCost": 75.495882,
+    "totalTokens": 131030303,
+    "inputTokens": 535248,
+    "outputTokens": 2045832,
+    "cacheTokens": 16107412
+  },
+  {
+    "date": "2025-12-03",
+    "totalCost": 90.093966,
+    "totalTokens": 119795553,
+    "inputTokens": 552422,
+    "outputTokens": 2002735,
+    "cacheTokens": 6346276
+  },
+  {
+    "date": "2025-12-04",
+    "totalCost": 85.752335,
+    "totalTokens": 139545124,
+    "inputTokens": 407444,
+    "outputTokens": 3215810,
+    "cacheTokens": 15113804
+  },
+  {
+    "date": "2025-12-05",
+    "totalCost": 28.29567,
+    "totalTokens": 42876642,
+    "inputTokens": 107507,
+    "outputTokens": 484002,
+    "cacheTokens": 2963179
+  },
+  {
+    "date": "2025-12-07",
+    "totalCost": 100.850953,
+    "totalTokens": 121391591,
+    "inputTokens": 448252,
+    "outputTokens": 2355627,
+    "cacheTokens": 11132552
+  },
+  {
+    "date": "2025-12-08",
+    "totalCost": 41.561395,
+    "totalTokens": 70271337,
+    "inputTokens": 261060,
+    "outputTokens": 1124358,
+    "cacheTokens": 7689621
+  },
+  {
+    "date": "2025-12-09",
+    "totalCost": 57.202415,
+    "totalTokens": 79052504,
+    "inputTokens": 203767,
+    "outputTokens": 1922603,
+    "cacheTokens": 7286731
+  },
+  {
+    "date": "2025-12-10",
+    "totalCost": 56.06719,
+    "totalTokens": 79249239,
+    "inputTokens": 188176,
+    "outputTokens": 1499383,
+    "cacheTokens": 4876572
+  },
+  {
+    "date": "2025-12-11",
+    "totalCost": 5.81445,
+    "totalTokens": 10194737,
+    "inputTokens": 28318,
+    "outputTokens": 233235,
+    "cacheTokens": 1296792
+  },
+  {
+    "date": "2025-12-12",
+    "totalCost": 54.493914,
+    "totalTokens": 86653067,
+    "inputTokens": 260755,
+    "outputTokens": 2063492,
+    "cacheTokens": 10344261
+  },
+  {
+    "date": "2025-12-13",
+    "totalCost": 31.657915,
+    "totalTokens": 40896226,
+    "inputTokens": 159240,
+    "outputTokens": 622928,
+    "cacheTokens": 2547880
+  },
+  {
+    "date": "2025-12-14",
+    "totalCost": 23.308225,
+    "totalTokens": 29119654,
+    "inputTokens": 124467,
+    "outputTokens": 561068,
+    "cacheTokens": 2003007
+  },
+  {
+    "date": "2025-12-15",
+    "totalCost": 27.67243,
+    "totalTokens": 42119554,
+    "inputTokens": 162255,
+    "outputTokens": 515763,
+    "cacheTokens": 2934259
+  },
+  {
+    "date": "2025-12-16",
+    "totalCost": 31.578879,
+    "totalTokens": 38894327,
+    "inputTokens": 146292,
+    "outputTokens": 542675,
+    "cacheTokens": 3273244
+  },
+  {
+    "date": "2025-12-17",
+    "totalCost": 23.954296,
+    "totalTokens": 35615000,
+    "inputTokens": 170448,
+    "outputTokens": 463869,
+    "cacheTokens": 4561075
+  },
+  {
+    "date": "2025-12-18",
+    "totalCost": 108.57572,
+    "totalTokens": 191190198,
+    "inputTokens": 713949,
+    "outputTokens": 2068563,
+    "cacheTokens": 13915722
+  },
+  {
+    "date": "2025-12-19",
+    "totalCost": 94.426327,
+    "totalTokens": 123272593,
+    "inputTokens": 406988,
+    "outputTokens": 3017632,
+    "cacheTokens": 11671334
+  },
+  {
+    "date": "2025-12-20",
+    "totalCost": 29.85166,
+    "totalTokens": 37444292,
+    "inputTokens": 133987,
+    "outputTokens": 891840,
+    "cacheTokens": 4178233
+  },
+  {
+    "date": "2025-12-21",
+    "totalCost": 29.833645,
+    "totalTokens": 49050755,
+    "inputTokens": 211329,
+    "outputTokens": 517669,
+    "cacheTokens": 6119832
+  },
+  {
+    "date": "2025-12-22",
+    "totalCost": 58.88139,
+    "totalTokens": 75045673,
+    "inputTokens": 354172,
+    "outputTokens": 1524079,
+    "cacheTokens": 5842056
+  },
+  {
+    "date": "2025-12-23",
+    "totalCost": 68.448052,
+    "totalTokens": 114036192,
+    "inputTokens": 527907,
+    "outputTokens": 1893451,
+    "cacheTokens": 7334223
+  },
+  {
+    "date": "2025-12-24",
+    "totalCost": 87.183332,
+    "totalTokens": 117658649,
+    "inputTokens": 344066,
+    "outputTokens": 1907214,
+    "cacheTokens": 12743531
+  },
+  {
+    "date": "2025-12-25",
+    "totalCost": 42.698774,
+    "totalTokens": 58042879,
+    "inputTokens": 131195,
+    "outputTokens": 929443,
+    "cacheTokens": 6356156
+  },
+  {
+    "date": "2025-12-26",
+    "totalCost": 105.457287,
+    "totalTokens": 172542160,
+    "inputTokens": 575064,
+    "outputTokens": 1793379,
+    "cacheTokens": 15499326
+  },
+  {
+    "date": "2025-12-27",
+    "totalCost": 22.360234,
+    "totalTokens": 36020139,
+    "inputTokens": 166479,
+    "outputTokens": 374815,
+    "cacheTokens": 3970795
+  },
+  {
+    "date": "2025-12-28",
+    "totalCost": 15.600919,
+    "totalTokens": 19462294,
+    "inputTokens": 69638,
+    "outputTokens": 295780,
+    "cacheTokens": 1132893
+  },
+  {
+    "date": "2025-12-29",
+    "totalCost": 36.502655,
+    "totalTokens": 46147497,
+    "inputTokens": 190957,
+    "outputTokens": 1054460,
+    "cacheTokens": 2627882
+  },
+  {
+    "date": "2025-12-30",
+    "totalCost": 427.636611,
+    "totalTokens": 516833519,
+    "inputTokens": 2136999,
+    "outputTokens": 7930649,
+    "cacheTokens": 45174817
+  },
+  {
+    "date": "2025-12-31",
+    "totalCost": 76.198782,
+    "totalTokens": 98939231,
+    "inputTokens": 271978,
+    "outputTokens": 1376755,
+    "cacheTokens": 11858951
+  },
+  {
+    "date": "2026-01-02",
+    "totalCost": 52.917733,
+    "totalTokens": 80438705,
+    "inputTokens": 192844,
+    "outputTokens": 1882974,
+    "cacheTokens": 9437651
+  },
+  {
+    "date": "2026-01-03",
+    "totalCost": 105.978923,
+    "totalTokens": 139176845,
+    "inputTokens": 576214,
+    "outputTokens": 2449889,
+    "cacheTokens": 10052047
+  },
+  {
+    "date": "2026-01-04",
+    "totalCost": 7.136675,
+    "totalTokens": 9829340,
+    "inputTokens": 43321,
+    "outputTokens": 222909,
+    "cacheTokens": 559648
+  },
+  {
+    "date": "2026-01-05",
+    "totalCost": 22.844093,
+    "totalTokens": 34752594,
+    "inputTokens": 82885,
+    "outputTokens": 552331,
+    "cacheTokens": 3038184
+  },
+  {
+    "date": "2026-01-06",
+    "totalCost": 54.278078,
+    "totalTokens": 77679476,
+    "inputTokens": 290234,
+    "outputTokens": 1690100,
+    "cacheTokens": 9229901
+  },
+  {
+    "date": "2026-01-07",
+    "totalCost": 17.914248,
+    "totalTokens": 23070779,
+    "inputTokens": 50897,
+    "outputTokens": 329858,
+    "cacheTokens": 2133863
+  },
+  {
+    "date": "2026-01-08",
+    "totalCost": 27.306156,
+    "totalTokens": 39171885,
+    "inputTokens": 84049,
+    "outputTokens": 660659,
+    "cacheTokens": 2395007
+  },
+  {
+    "date": "2026-01-09",
+    "totalCost": 40.281668,
+    "totalTokens": 60400196,
+    "inputTokens": 132456,
+    "outputTokens": 1432178,
+    "cacheTokens": 5901123
+  },
+  {
+    "date": "2026-01-10",
+    "totalCost": 17.025692,
+    "totalTokens": 27051742,
+    "inputTokens": 84150,
+    "outputTokens": 635488,
+    "cacheTokens": 2196194
+  },
+  {
+    "date": "2026-01-11",
+    "totalCost": 46.956937,
+    "totalTokens": 73382368,
+    "inputTokens": 177577,
+    "outputTokens": 1169739,
+    "cacheTokens": 9204285
+  },
+  {
+    "date": "2026-01-12",
+    "totalCost": 169.570147,
+    "totalTokens": 294602361,
+    "inputTokens": 1443834,
+    "outputTokens": 6116970,
+    "cacheTokens": 31575370
+  },
+  {
+    "date": "2026-01-13",
+    "totalCost": 24.992079,
+    "totalTokens": 33147150,
+    "inputTokens": 162120,
+    "outputTokens": 720471,
+    "cacheTokens": 2435702
+  },
+  {
+    "date": "2026-01-14",
+    "totalCost": 120.625976,
+    "totalTokens": 211792611,
+    "inputTokens": 1015719,
+    "outputTokens": 5030560,
+    "cacheTokens": 12479867
+  },
+  {
+    "date": "2026-01-15",
+    "totalCost": 106.313977,
+    "totalTokens": 135240915,
+    "inputTokens": 450828,
+    "outputTokens": 2622112,
+    "cacheTokens": 14569737
+  },
+  {
+    "date": "2026-01-16",
+    "totalCost": 68.500738,
+    "totalTokens": 109588465,
+    "inputTokens": 481809,
+    "outputTokens": 1232342,
+    "cacheTokens": 7434321
+  },
+  {
+    "date": "2026-01-17",
+    "totalCost": 126.317978,
+    "totalTokens": 202818359,
+    "inputTokens": 489823,
+    "outputTokens": 3924569,
+    "cacheTokens": 22687602
+  },
+  {
+    "date": "2026-01-18",
+    "totalCost": 289.207695,
+    "totalTokens": 501189735,
+    "inputTokens": 2201766,
+    "outputTokens": 11329624,
+    "cacheTokens": 47116603
+  },
+  {
+    "date": "2026-01-19",
+    "totalCost": 13.825692,
+    "totalTokens": 18172896,
+    "inputTokens": 88228,
+    "outputTokens": 259778,
+    "cacheTokens": 2112576
+  },
+  {
+    "date": "2026-01-20",
+    "totalCost": 21.138906,
+    "totalTokens": 25775623,
+    "inputTokens": 118696,
+    "outputTokens": 261427,
+    "cacheTokens": 1956488
+  },
+  {
+    "date": "2026-01-22",
+    "totalCost": 16.852579,
+    "totalTokens": 23781223,
+    "inputTokens": 115323,
+    "outputTokens": 281948,
+    "cacheTokens": 1246305
+  },
+  {
+    "date": "2026-01-23",
+    "totalCost": 88.66746,
+    "totalTokens": 113208077,
+    "inputTokens": 499926,
+    "outputTokens": 2064169,
+    "cacheTokens": 10801655
+  },
+  {
+    "date": "2026-01-24",
+    "totalCost": 118.322635,
+    "totalTokens": 178978342,
+    "inputTokens": 651871,
+    "outputTokens": 3484237,
+    "cacheTokens": 10834108
+  },
+  {
+    "date": "2026-01-25",
+    "totalCost": 10.844936,
+    "totalTokens": 14410422,
+    "inputTokens": 32713,
+    "outputTokens": 166124,
+    "cacheTokens": 1515995
+  },
+  {
+    "date": "2026-01-26",
+    "totalCost": 51.355071,
+    "totalTokens": 67809096,
+    "inputTokens": 187739,
+    "outputTokens": 1098454,
+    "cacheTokens": 7606678
+  },
+  {
+    "date": "2026-01-27",
+    "totalCost": 26.124768,
+    "totalTokens": 37300053,
+    "inputTokens": 183143,
+    "outputTokens": 434885,
+    "cacheTokens": 3392500
+  },
+  {
+    "date": "2026-01-28",
+    "totalCost": 117.406238,
+    "totalTokens": 208444512,
+    "inputTokens": 513622,
+    "outputTokens": 2246327,
+    "cacheTokens": 16712700
+  },
+  {
+    "date": "2026-01-29",
+    "totalCost": 107.808973,
+    "totalTokens": 170452355,
+    "inputTokens": 722752,
+    "outputTokens": 3741789,
+    "cacheTokens": 20453593
+  },
+  {
+    "date": "2026-01-30",
+    "totalCost": 84.028511,
+    "totalTokens": 148414145,
+    "inputTokens": 664776,
+    "outputTokens": 3052698,
+    "cacheTokens": 16056857
+  },
+  {
+    "date": "2026-01-31",
+    "totalCost": 13.113354,
+    "totalTokens": 17159629,
+    "inputTokens": 56235,
+    "outputTokens": 313196,
+    "cacheTokens": 1132046
+  },
+  {
+    "date": "2026-02-01",
+    "totalCost": 75.098065,
+    "totalTokens": 123100076,
+    "inputTokens": 362419,
+    "outputTokens": 2622515,
+    "cacheTokens": 12889969
+  },
+  {
+    "date": "2026-02-02",
+    "totalCost": 80.35843,
+    "totalTokens": 112116232,
+    "inputTokens": 318423,
+    "outputTokens": 1271961,
+    "cacheTokens": 8026996
+  },
+  {
+    "date": "2026-02-03",
+    "totalCost": 16.718354,
+    "totalTokens": 28446598,
+    "inputTokens": 136828,
+    "outputTokens": 554919,
+    "cacheTokens": 1992067
+  },
+  {
+    "date": "2026-02-04",
+    "totalCost": 62.211237,
+    "totalTokens": 84973683,
+    "inputTokens": 390473,
+    "outputTokens": 1920675,
+    "cacheTokens": 5832279
+  },
+  {
+    "date": "2026-02-05",
+    "totalCost": 85.702896,
+    "totalTokens": 144468280,
+    "inputTokens": 681196,
+    "outputTokens": 1988133,
+    "cacheTokens": 12429814
+  },
+  {
+    "date": "2026-02-07",
+    "totalCost": 64.840202,
+    "totalTokens": 95238363,
+    "inputTokens": 383434,
+    "outputTokens": 1414262,
+    "cacheTokens": 7005148
+  },
+  {
+    "date": "2026-02-09",
+    "totalCost": 72.083524,
+    "totalTokens": 102410031,
+    "inputTokens": 342233,
+    "outputTokens": 2245162,
+    "cacheTokens": 6796060
+  },
+  {
+    "date": "2026-02-11",
+    "totalCost": 121.187906,
+    "totalTokens": 176992328,
+    "inputTokens": 734009,
+    "outputTokens": 3791419,
+    "cacheTokens": 11389339
+  },
+  {
+    "date": "2026-02-12",
+    "totalCost": 87.03064,
+    "totalTokens": 154087598,
+    "inputTokens": 573118,
+    "outputTokens": 3833987,
+    "cacheTokens": 9365402
+  },
+  {
+    "date": "2026-02-13",
+    "totalCost": 27.83669,
+    "totalTokens": 45830075,
+    "inputTokens": 197094,
+    "outputTokens": 760256,
+    "cacheTokens": 2727083
+  },
+  {
+    "date": "2026-02-14",
+    "totalCost": 85.153251,
+    "totalTokens": 106017574,
+    "inputTokens": 440755,
+    "outputTokens": 2365871,
+    "cacheTokens": 9991563
+  },
+  {
+    "date": "2026-02-15",
+    "totalCost": 8.400398,
+    "totalTokens": 14277453,
+    "inputTokens": 60694,
+    "outputTokens": 228852,
+    "cacheTokens": 1656158
+  },
+  {
+    "date": "2026-02-16",
+    "totalCost": 27.831005,
+    "totalTokens": 33432862,
+    "inputTokens": 116509,
+    "outputTokens": 803480,
+    "cacheTokens": 4074785
+  },
+  {
+    "date": "2026-02-17",
+    "totalCost": 20.165873,
+    "totalTokens": 30634393,
+    "inputTokens": 122445,
+    "outputTokens": 657090,
+    "cacheTokens": 3748184
+  },
+  {
+    "date": "2026-02-18",
+    "totalCost": 10.178111,
+    "totalTokens": 15576609,
+    "inputTokens": 44510,
+    "outputTokens": 217884,
+    "cacheTokens": 1057360
+  },
+  {
+    "date": "2026-02-19",
+    "totalCost": 101.499476,
+    "totalTokens": 121836609,
+    "inputTokens": 274656,
+    "outputTokens": 2191281,
+    "cacheTokens": 14907824
+  },
+  {
+    "date": "2026-02-20",
+    "totalCost": 119.281106,
+    "totalTokens": 144443992,
+    "inputTokens": 374009,
+    "outputTokens": 2828573,
+    "cacheTokens": 12765701
+  },
+  {
+    "date": "2026-02-21",
+    "totalCost": 9.487801,
+    "totalTokens": 12672643,
+    "inputTokens": 50212,
+    "outputTokens": 247584,
+    "cacheTokens": 657206
+  },
+  {
+    "date": "2026-02-22",
+    "totalCost": 31.60656,
+    "totalTokens": 50386169,
+    "inputTokens": 101505,
+    "outputTokens": 800292,
+    "cacheTokens": 4805638
+  },
+  {
+    "date": "2026-02-24",
+    "totalCost": 90.110431,
+    "totalTokens": 155063791,
+    "inputTokens": 443583,
+    "outputTokens": 3504804,
+    "cacheTokens": 19888921
+  },
+  {
+    "date": "2026-02-26",
+    "totalCost": 21.505547,
+    "totalTokens": 37797094,
+    "inputTokens": 150606,
+    "outputTokens": 581421,
+    "cacheTokens": 2691816
+  },
+  {
+    "date": "2026-02-27",
+    "totalCost": 100.871739,
+    "totalTokens": 167875516,
+    "inputTokens": 815303,
+    "outputTokens": 2401816,
+    "cacheTokens": 16416696
+  },
+  {
+    "date": "2026-02-28",
+    "totalCost": 74.157267,
+    "totalTokens": 97311713,
+    "inputTokens": 327395,
+    "outputTokens": 2297414,
+    "cacheTokens": 7724449
+  },
+  {
     "date": "2026-03-02",
-    "totalCost": 21.993200199999997,
-    "totalTokens": 45268649,
-    "inputTokens": 116303,
-    "outputTokens": 224264,
-    "cacheTokens": 4401818
+    "totalCost": 22.893096,
+    "totalTokens": 31436970,
+    "inputTokens": 89858,
+    "outputTokens": 633503,
+    "cacheTokens": 1633874
   },
   {
     "date": "2026-03-03",
-    "totalCost": 3.7739283500000007,
-    "totalTokens": 8135552,
-    "inputTokens": 12375,
-    "outputTokens": 63258,
-    "cacheTokens": 744251
+    "totalCost": 25.385866,
+    "totalTokens": 38585820,
+    "inputTokens": 140887,
+    "outputTokens": 397612,
+    "cacheTokens": 2906899
+  },
+  {
+    "date": "2026-03-04",
+    "totalCost": 71.627479,
+    "totalTokens": 105277385,
+    "inputTokens": 372704,
+    "outputTokens": 1423807,
+    "cacheTokens": 10168571
+  },
+  {
+    "date": "2026-03-05",
+    "totalCost": 17.558465,
+    "totalTokens": 29828261,
+    "inputTokens": 141045,
+    "outputTokens": 386815,
+    "cacheTokens": 2154641
   },
   {
     "date": "2026-03-06",
-    "totalCost": 1.7593103500000002,
-    "totalTokens": 5613717,
-    "inputTokens": 7960,
-    "outputTokens": 22351,
-    "cacheTokens": 503441
+    "totalCost": 334.021984,
+    "totalTokens": 499717030,
+    "inputTokens": 1373020,
+    "outputTokens": 8147274,
+    "cacheTokens": 48854567
+  },
+  {
+    "date": "2026-03-07",
+    "totalCost": 18.730722,
+    "totalTokens": 24000942,
+    "inputTokens": 72463,
+    "outputTokens": 488148,
+    "cacheTokens": 2202284
   },
   {
     "date": "2026-03-08",
-    "totalCost": 1.6574887000000003,
-    "totalTokens": 6885936,
-    "inputTokens": 49155,
-    "outputTokens": 26758,
-    "cacheTokens": 690036
+    "totalCost": 237.418678,
+    "totalTokens": 301550081,
+    "inputTokens": 872800,
+    "outputTokens": 7162075,
+    "cacheTokens": 31888797
   },
   {
     "date": "2026-03-09",
-    "totalCost": 1.1700473999999998,
-    "totalTokens": 6721850,
-    "inputTokens": 493,
-    "outputTokens": 13616,
-    "cacheTokens": 374522
+    "totalCost": 6.719716,
+    "totalTokens": 11352938,
+    "inputTokens": 35952,
+    "outputTokens": 137540,
+    "cacheTokens": 1389546
   },
   {
     "date": "2026-03-10",
-    "totalCost": 6.9220654500000025,
-    "totalTokens": 17033146,
-    "inputTokens": 15463,
-    "outputTokens": 52538,
-    "cacheTokens": 1339809
+    "totalCost": 45.639849,
+    "totalTokens": 74622333,
+    "inputTokens": 173435,
+    "outputTokens": 1155855,
+    "cacheTokens": 9676249
   },
   {
     "date": "2026-03-11",
-    "totalCost": 21.558756300000006,
-    "totalTokens": 33125061,
-    "inputTokens": 16406,
-    "outputTokens": 78308,
-    "cacheTokens": 1725472
+    "totalCost": 106.251854,
+    "totalTokens": 180185212,
+    "inputTokens": 788697,
+    "outputTokens": 2577285,
+    "cacheTokens": 12119657
   },
   {
     "date": "2026-03-12",
-    "totalCost": 9.382240800000003,
-    "totalTokens": 15016552,
-    "inputTokens": 5245,
-    "outputTokens": 32988,
-    "cacheTokens": 888890
+    "totalCost": 118.353777,
+    "totalTokens": 207498861,
+    "inputTokens": 775485,
+    "outputTokens": 2653839,
+    "cacheTokens": 19241686
   },
   {
     "date": "2026-03-13",
-    "totalCost": 0.49233185,
-    "totalTokens": 388576,
-    "inputTokens": 91,
-    "outputTokens": 1388,
-    "cacheTokens": 87409
+    "totalCost": 76.382999,
+    "totalTokens": 112655725,
+    "inputTokens": 396605,
+    "outputTokens": 2814333,
+    "cacheTokens": 12220665
   },
   {
     "date": "2026-03-14",
-    "totalCost": 0.24913475,
-    "totalTokens": 139376,
-    "inputTokens": 15,
-    "outputTokens": 197,
-    "cacheTokens": 30357
+    "totalCost": 55.034161,
+    "totalTokens": 99046075,
+    "inputTokens": 217433,
+    "outputTokens": 2066574,
+    "cacheTokens": 8580249
   },
   {
     "date": "2026-03-15",
-    "totalCost": 60.641322050000085,
-    "totalTokens": 95771055,
-    "inputTokens": 63004,
-    "outputTokens": 167615,
-    "cacheTokens": 4071475
+    "totalCost": 57.363338,
+    "totalTokens": 84031668,
+    "inputTokens": 194547,
+    "outputTokens": 1089022,
+    "cacheTokens": 8641971
   },
   {
     "date": "2026-03-16",
-    "totalCost": 12.555166050000006,
-    "totalTokens": 15088573,
-    "inputTokens": 29992,
-    "outputTokens": 29593,
-    "cacheTokens": 1256279
+    "totalCost": 1.1474,
+    "totalTokens": 1921139,
+    "inputTokens": 5787,
+    "outputTokens": 20887,
+    "cacheTokens": 192937
   },
   {
     "date": "2026-03-17",
-    "totalCost": 62.267022899999915,
-    "totalTokens": 103902899,
-    "inputTokens": 114894,
-    "outputTokens": 212220,
-    "cacheTokens": 4302776
+    "totalCost": 90.595489,
+    "totalTokens": 125497724,
+    "inputTokens": 407743,
+    "outputTokens": 1369853,
+    "cacheTokens": 12748384
   },
   {
     "date": "2026-03-18",
-    "totalCost": 32.77095174999999,
-    "totalTokens": 51291287,
-    "inputTokens": 48040,
-    "outputTokens": 93432,
-    "cacheTokens": 2194403
+    "totalCost": 35.311871,
+    "totalTokens": 57817283,
+    "inputTokens": 249767,
+    "outputTokens": 684133,
+    "cacheTokens": 7479599
   },
   {
     "date": "2026-03-19",
-    "totalCost": 6.174724849999997,
-    "totalTokens": 8674722,
-    "inputTokens": 8813,
-    "outputTokens": 14896,
-    "cacheTokens": 655533
+    "totalCost": 109.787302,
+    "totalTokens": 177760479,
+    "inputTokens": 551046,
+    "outputTokens": 3524927,
+    "cacheTokens": 20319539
   },
   {
     "date": "2026-03-20",
-    "totalCost": 18.722171899999992,
-    "totalTokens": 25127755,
-    "inputTokens": 39472,
-    "outputTokens": 50386,
-    "cacheTokens": 1795888
-  },
-  {
-    "date": "2026-03-21",
-    "totalCost": 15.966070450000002,
-    "totalTokens": 25760262,
-    "inputTokens": 22352,
-    "outputTokens": 51494,
-    "cacheTokens": 1521095
+    "totalCost": 82.794809,
+    "totalTokens": 128322185,
+    "inputTokens": 567297,
+    "outputTokens": 1890019,
+    "cacheTokens": 14165758
   },
   {
     "date": "2026-03-22",
-    "totalCost": 105.73204265000008,
-    "totalTokens": 137200336,
-    "inputTokens": 89377,
-    "outputTokens": 269564,
-    "cacheTokens": 8613957
+    "totalCost": 76.310506,
+    "totalTokens": 112499187,
+    "inputTokens": 261492,
+    "outputTokens": 1737681,
+    "cacheTokens": 8636444
   },
   {
     "date": "2026-03-23",
-    "totalCost": 13.299667250000004,
-    "totalTokens": 19102169,
-    "inputTokens": 12339,
-    "outputTokens": 28865,
-    "cacheTokens": 1345133
-  },
-  {
-    "date": "2026-03-24",
-    "totalCost": 65.29037810000005,
-    "totalTokens": 60117221,
-    "inputTokens": 69432,
-    "outputTokens": 109896,
-    "cacheTokens": 7605628
+    "totalCost": 20.065251,
+    "totalTokens": 31368624,
+    "inputTokens": 71189,
+    "outputTokens": 319551,
+    "cacheTokens": 3035557
   },
   {
     "date": "2026-03-25",
-    "totalCost": 62.35241505,
-    "totalTokens": 75450905,
-    "inputTokens": 59464,
-    "outputTokens": 181023,
-    "cacheTokens": 6183731
+    "totalCost": 61.328068,
+    "totalTokens": 104197996,
+    "inputTokens": 504826,
+    "outputTokens": 1683780,
+    "cacheTokens": 9024106
   },
   {
     "date": "2026-03-26",
-    "totalCost": 167.35336285000002,
-    "totalTokens": 243679114,
-    "inputTokens": 214469,
-    "outputTokens": 523153,
-    "cacheTokens": 13659309
+    "totalCost": 72.278848,
+    "totalTokens": 112066419,
+    "inputTokens": 244057,
+    "outputTokens": 2671787,
+    "cacheTokens": 10182432
   },
   {
     "date": "2026-03-27",
-    "totalCost": 29.303979750000003,
-    "totalTokens": 40496666,
-    "inputTokens": 38867,
-    "outputTokens": 78699,
-    "cacheTokens": 2648629
+    "totalCost": 105.922461,
+    "totalTokens": 188515966,
+    "inputTokens": 598866,
+    "outputTokens": 2824770,
+    "cacheTokens": 14624848
   },
   {
     "date": "2026-03-28",
-    "totalCost": 1175.5449505999952,
-    "totalTokens": 2223550479,
-    "inputTokens": 243814,
-    "outputTokens": 537516,
-    "cacheTokens": 13399094
-  },
-  {
-    "date": "2026-03-29",
-    "totalCost": 1895.532208700011,
-    "totalTokens": 3709960486,
-    "inputTokens": 121781,
-    "outputTokens": 339588,
-    "cacheTokens": 8330238
-  },
-  {
-    "date": "2026-03-30",
-    "totalCost": 1684.5458101999975,
-    "totalTokens": 3354275274,
-    "inputTokens": 20589,
-    "outputTokens": 55577,
-    "cacheTokens": 1104744
+    "totalCost": 17.935705,
+    "totalTokens": 28286196,
+    "inputTokens": 82923,
+    "outputTokens": 328332,
+    "cacheTokens": 1940970
   },
   {
     "date": "2026-03-31",
-    "totalCost": 1773.3197257500049,
-    "totalTokens": 3499710362,
-    "inputTokens": 54121,
-    "outputTokens": 179908,
-    "cacheTokens": 4686819
+    "totalCost": 171.551771,
+    "totalTokens": 232128804,
+    "inputTokens": 1014217,
+    "outputTokens": 2890050,
+    "cacheTokens": 13009526
   },
   {
     "date": "2026-04-01",
-    "totalCost": 2222.360635500003,
-    "totalTokens": 4358261511,
-    "inputTokens": 98058,
-    "outputTokens": 282465,
-    "cacheTokens": 8528260
+    "totalCost": 13.708899,
+    "totalTokens": 21107695,
+    "inputTokens": 66408,
+    "outputTokens": 478659,
+    "cacheTokens": 1964490
   },
   {
     "date": "2026-04-02",
-    "totalCost": 3092.8272837999984,
-    "totalTokens": 6081870238,
-    "inputTokens": 129683,
-    "outputTokens": 402998,
-    "cacheTokens": 10005146
+    "totalCost": 27.634931,
+    "totalTokens": 47385951,
+    "inputTokens": 161930,
+    "outputTokens": 1081588,
+    "cacheTokens": 4614103
   },
   {
     "date": "2026-04-03",
-    "totalCost": 3082.567801650003,
-    "totalTokens": 6127022094,
-    "inputTokens": 52066,
-    "outputTokens": 134443,
-    "cacheTokens": 3532737
+    "totalCost": 124.089212,
+    "totalTokens": 151895471,
+    "inputTokens": 648748,
+    "outputTokens": 2284968,
+    "cacheTokens": 11789011
   },
   {
     "date": "2026-04-04",
-    "totalCost": 1226.0584472499988,
-    "totalTokens": 2416521204,
-    "inputTokens": 72418,
-    "outputTokens": 194616,
-    "cacheTokens": 4981051
+    "totalCost": 124.271717,
+    "totalTokens": 177731505,
+    "inputTokens": 723886,
+    "outputTokens": 3574831,
+    "cacheTokens": 19494441
   },
   {
     "date": "2026-04-05",
-    "totalCost": 126.41151524999981,
-    "totalTokens": 194939179,
-    "inputTokens": 150791,
-    "outputTokens": 414119,
-    "cacheTokens": 10242419
+    "totalCost": 41.755438,
+    "totalTokens": 64584837,
+    "inputTokens": 136709,
+    "outputTokens": 1270748,
+    "cacheTokens": 3496793
   },
   {
     "date": "2026-04-06",
-    "totalCost": 178.7049500500004,
-    "totalTokens": 255620519,
-    "inputTokens": 241646,
-    "outputTokens": 484149,
-    "cacheTokens": 13328681
+    "totalCost": 58.807868,
+    "totalTokens": 82945611,
+    "inputTokens": 327046,
+    "outputTokens": 1046958,
+    "cacheTokens": 5749974
   },
   {
     "date": "2026-04-07",
-    "totalCost": 292.8717553000004,
-    "totalTokens": 467357534,
-    "inputTokens": 610234,
-    "outputTokens": 1177066,
-    "cacheTokens": 23175736
+    "totalCost": 91.952955,
+    "totalTokens": 159922303,
+    "inputTokens": 542434,
+    "outputTokens": 2037147,
+    "cacheTokens": 8312824
   },
   {
     "date": "2026-04-08",
-    "totalCost": 157.37246384999997,
-    "totalTokens": 239833882,
-    "inputTokens": 153109,
-    "outputTokens": 468507,
-    "cacheTokens": 13241475
+    "totalCost": 59.976878,
+    "totalTokens": 95925132,
+    "inputTokens": 252031,
+    "outputTokens": 1061548,
+    "cacheTokens": 7107112
   },
   {
     "date": "2026-04-09",
-    "totalCost": 98.80412889999995,
-    "totalTokens": 146944136,
-    "inputTokens": 95420,
-    "outputTokens": 1189001,
-    "cacheTokens": 10577332
+    "totalCost": 86.966267,
+    "totalTokens": 124810358,
+    "inputTokens": 480268,
+    "outputTokens": 2827177,
+    "cacheTokens": 10690242
   },
   {
     "date": "2026-04-10",
-    "totalCost": 79.06408369999998,
-    "totalTokens": 110780346,
-    "inputTokens": 57122,
-    "outputTokens": 530350,
-    "cacheTokens": 6427434
+    "totalCost": 6.38767,
+    "totalTokens": 9030700,
+    "inputTokens": 34720,
+    "outputTokens": 221915,
+    "cacheTokens": 769659
   },
   {
     "date": "2026-04-11",
-    "totalCost": 125.42088720000008,
-    "totalTokens": 160793644,
-    "inputTokens": 131706,
-    "outputTokens": 967071,
-    "cacheTokens": 11078010
+    "totalCost": 104.517301,
+    "totalTokens": 152360178,
+    "inputTokens": 626807,
+    "outputTokens": 2920709,
+    "cacheTokens": 11264356
+  },
+  {
+    "date": "2026-04-12",
+    "totalCost": 50.506953,
+    "totalTokens": 88927729,
+    "inputTokens": 223751,
+    "outputTokens": 1914555,
+    "cacheTokens": 5472363
+  },
+  {
+    "date": "2026-04-13",
+    "totalCost": 23.299645,
+    "totalTokens": 28645548,
+    "inputTokens": 110486,
+    "outputTokens": 327498,
+    "cacheTokens": 1808605
+  },
+  {
+    "date": "2026-04-14",
+    "totalCost": 11.920751,
+    "totalTokens": 19398816,
+    "inputTokens": 85087,
+    "outputTokens": 473599,
+    "cacheTokens": 1034648
+  },
+  {
+    "date": "2026-04-15",
+    "totalCost": 77.484479,
+    "totalTokens": 108549945,
+    "inputTokens": 502230,
+    "outputTokens": 1985782,
+    "cacheTokens": 11013769
   }
 ]
