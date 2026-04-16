@@ -5,8 +5,8 @@
 
 :root {
   /* Font Stack */
-  --font-family-sans: 'Styrene A', 'Inter', system-ui, -apple-system, sans-serif;
-  --font-family-mono: 'Söhne Mono', 'JetBrains Mono', 'Fira Code', monospace;
+  --font-family-sans: "Styrene A", "Inter", system-ui, -apple-system, sans-serif;
+  --font-family-mono: "Söhne Mono", "JetBrains Mono", "Fira Code", monospace;
 
   /* Type Scale */
   --text-display: 36px;
@@ -42,9 +42,9 @@
   --radius-full: 9999px;
 
   /* Shadows */
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-  --shadow-md: 0 2px 8px rgba(0,0,0,0.08);
-  --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
   --shadow-none: none;
 
   /* Animation */
@@ -60,25 +60,25 @@
 
 :root,
 :root[data-theme="light"] {
-  --color-brand-primary: #E3694C;
-  --color-brand-primary-hover: #D4593D;
-  --color-brand-primary-subtle: #FDF0ED;
+  --color-brand-primary: #e3694c;
+  --color-brand-primary-hover: #d4593d;
+  --color-brand-primary-subtle: #fdf0ed;
 
-  --color-text-primary: #1A1A1A;
-  --color-text-secondary: #6B6B6B;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #6b6b6b;
   --color-text-tertiary: #757575;
 
-  --color-bg-primary: #FFFFFF;
-  --color-bg-secondary: #F7F7F7;
-  --color-bg-tertiary: #EFEFEF;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f7f7f7;
+  --color-bg-tertiary: #efefef;
 
-  --color-border-default: #E5E5E5;
-  --color-border-subtle: #F0F0F0;
+  --color-border-default: #e5e5e5;
+  --color-border-subtle: #f0f0f0;
 
-  --color-success: #16A34A;
-  --color-warning: #CA8A04;
-  --color-error: #DC2626;
-  --color-info: #2563EB;
+  --color-success: #16a34a;
+  --color-warning: #ca8a04;
+  --color-error: #dc2626;
+  --color-info: #2563eb;
 }
 
 /* ============================================
@@ -86,25 +86,25 @@
    ============================================ */
 
 :root[data-theme="dark"] {
-  --color-brand-primary: #E3694C;
-  --color-brand-primary-hover: #EC8A73;
-  --color-brand-primary-subtle: #3D2520;
+  --color-brand-primary: #7ba7d9;
+  --color-brand-primary-hover: #9bbde6;
+  --color-brand-primary-subtle: #1e2a3d;
 
-  --color-text-primary: #F5F5F5;
-  --color-text-secondary: #A3A3A3;
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #a3a3a3;
   --color-text-tertiary: #949494;
 
-  --color-bg-primary: #1A1A1A;
+  --color-bg-primary: #1a1a1a;
   --color-bg-secondary: #252525;
-  --color-bg-tertiary: #2F2F2F;
+  --color-bg-tertiary: #2f2f2f;
 
   --color-border-default: #333333;
-  --color-border-subtle: #2A2A2A;
+  --color-border-subtle: #2a2a2a;
 
-  --color-success: #4ADE80;
-  --color-warning: #FACC15;
-  --color-error: #F87171;
-  --color-info: #60A5FA;
+  --color-success: #4ade80;
+  --color-warning: #facc15;
+  --color-error: #f87171;
+  --color-info: #60a5fa;
 }
 
 /* ============================================
@@ -127,8 +127,9 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: background-color var(--duration-normal) ease-in-out,
-              color var(--duration-normal) ease-in-out;
+  transition:
+    background-color var(--duration-normal) ease-in-out,
+    color var(--duration-normal) ease-in-out;
 }
 
 .container {
@@ -188,8 +189,9 @@ header {
   border-radius: var(--radius-md);
   cursor: pointer;
   font-size: 1.25rem;
-  transition: background-color var(--duration-instant) ease-out,
-              border-color var(--duration-instant) ease-out;
+  transition:
+    background-color var(--duration-instant) ease-out,
+    border-color var(--duration-instant) ease-out;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -258,8 +260,9 @@ section {
   border: 1px solid var(--color-border-default);
   padding: var(--space-5);
   border-radius: var(--radius-lg);
-  transition: border-color var(--duration-instant) ease-out,
-              box-shadow var(--duration-instant) ease-out;
+  transition:
+    border-color var(--duration-instant) ease-out,
+    box-shadow var(--duration-instant) ease-out;
 }
 
 .stat-card:hover {
@@ -471,9 +474,10 @@ section {
   font-family: var(--font-family-sans);
   font-size: var(--text-caption);
   font-weight: 500;
-  transition: background-color var(--duration-instant) ease-out,
-              border-color var(--duration-instant) ease-out,
-              box-shadow var(--duration-instant) ease-out;
+  transition:
+    background-color var(--duration-instant) ease-out,
+    border-color var(--duration-instant) ease-out,
+    box-shadow var(--duration-instant) ease-out;
   min-height: 44px;
   box-shadow: var(--shadow-sm);
 }
@@ -583,8 +587,9 @@ section {
   text-decoration: none;
   font-size: var(--text-body-sm);
   font-weight: 500;
-  transition: border-color var(--duration-instant) ease-out,
-              background-color var(--duration-instant) ease-out;
+  transition:
+    border-color var(--duration-instant) ease-out,
+    background-color var(--duration-instant) ease-out;
 }
 
 .social-link:hover {
@@ -788,7 +793,9 @@ footer {
   *,
   *::before,
   *::after {
+    /* biome-ignore lint/complexity/noImportantStyles: intentional per WCAG — must override all transitions for reduced-motion */
     transition-duration: 0s !important;
+    /* biome-ignore lint/complexity/noImportantStyles: intentional per WCAG — must override all animations for reduced-motion */
     animation-duration: 0s !important;
   }
 }

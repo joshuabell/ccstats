@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claude Code Usage Stats</title>
+    <script>
+      // Set theme before CSS loads to prevent flash of wrong theme
+      (() => {
+        var theme = localStorage.getItem('theme') ||
+          (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -17,7 +25,7 @@
                 <pre class="ascii-logo" id="asciiLogo" aria-hidden="true"></pre>
                 <p class="header-subtitle">Claude Code Usage Analytics</p>
             </div>
-            <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
                 <span class="theme-icon" aria-hidden="true">&#9788;</span>
             </button>
         </header>
@@ -117,9 +125,9 @@
                     <h2 id="activity-heading">Recent activity</h2>
                 </div>
                 <nav class="pagination-controls" aria-label="Activity pagination">
-                    <button class="pagination-btn" id="prevPage" disabled aria-label="Previous page">Prev</button>
+                    <button type="button" class="pagination-btn" id="prevPage" disabled aria-label="Previous page">Prev</button>
                     <span class="pagination-info" id="pageInfo" aria-live="polite">Page 1</span>
-                    <button class="pagination-btn" id="nextPage" aria-label="Next page">Next</button>
+                    <button type="button" class="pagination-btn" id="nextPage" aria-label="Next page">Next</button>
                 </nav>
             </div>
 
@@ -151,6 +159,7 @@
     </div>
 
     <script src="config.js"></script>
+    <script src="js/ascii-font.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

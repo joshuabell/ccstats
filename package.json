@@ -5,7 +5,9 @@
   "scripts": {
     "setup": "node setup.js",
     "stats": "node stats.js",
-    "push": "git add data/ && git commit -m 'Update usage stats' && git pull --rebase && git push"
+    "push": "git add data/stats.json data/days.json data/machines/ && git commit -m 'Update usage stats' && git pull --rebase && git push",
+    "lint": "npx @biomejs/biome check .",
+    "test": "node --test 'test/**/*.test.js'"
   },
   "keywords": [
     "claude",
@@ -24,6 +26,7 @@
     "ccusage": "^15.5.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "playwright": "^1.59.1"
   }
 }
