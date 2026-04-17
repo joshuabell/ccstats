@@ -22,3 +22,15 @@ npm-debug.log*
 
 # Environment
 .env
+.env.local
+.env.*.local
+
+# Secrets / certificates
+*.pem
+*.key
+*.crt
+*.p12
+
+# Build output
+dist/
+build/

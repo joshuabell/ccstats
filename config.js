@@ -6,7 +6,7 @@
 window.CONFIG = {
   // User Profile Information
   // The userName will be displayed as ASCII art in the header
-  userName: "DEMO",
+  userName: "YOUR NAME",
   userEmail: "",
   userBio: "Claude Code usage analytics.",
   userLocation: "",
@@ -14,9 +14,9 @@ window.CONFIG = {
 
   // Social Links (leave blank to hide)
   socials: {
-    github: "joshuabell",
-    linkedin: "https://www.linkedin.com/in/ajoshuabell",
-    website: "https://josh.ua",
+    github: "",
+    linkedin: "",
+    website: "",
   },
 
   // Site Configuration

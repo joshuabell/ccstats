@@ -4,11 +4,9 @@ A self-hosted analytics dashboard for tracking your Claude Code usage statistics
 
 ![Dashboard Preview](images/example-site.png)
 
-**[View Live Demo →](https://joshuabell.github.io/ccstats/)**
-
-![Dashboard Preview](https://img.shields.io/badge/Status-Active-success)
-![License](https://img.shields.io/badge/License-MIT-blue)
-![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-brightgreen)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/joshuabell/ccstats/pages.yml?label=CI)](https://github.com/joshuabell/ccstats/actions)
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-brightgreen)](https://pages.github.com/)
 
 ## Features
 
@@ -376,14 +374,21 @@ This happens if `npm run setup` was run twice on the same machine, creating two 
 
 ## Contributing
 
-Contributions welcome! Feel free to:
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
 - Open issues for bugs or feature requests
 - Submit PRs for improvements
 - Share your customized dashboards!
 
+Please note this project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Security
+
+To report a vulnerability, see [SECURITY.md](SECURITY.md).
+
 ## License
 
-MIT License - see LICENSE file for details
+MIT License - see [LICENSE](LICENSE) file for details
 
 ## Credits
 
@@ -399,4 +404,4 @@ If you found this useful, give it a star on GitHub!
 
 **Made with Claude Code**
 
-Need help? [Open an issue](https://github.com/yourusername/ccstats/issues)
+Need help? [Open an issue](https://github.com/joshuabell/ccstats/issues)
